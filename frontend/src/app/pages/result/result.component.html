@@ -1,0 +1,77 @@
+<div class="container" fxLayout fxLayout.xs="column">
+    <div class="search-bar-wrapper" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="60" fxFlex="50">
+        <h2>CSI Wissensgraph Frage-Antwort-System</h2>
+        <div class="search-bar" fxLayout="row" fxLayout.xs="column" fxLayoutAlign.xs="center">
+            <div class="search-field" fxLayoutAlign="center">
+                <a style="color: white;cursor: pointer;" (click)="submitQuery(queryCtrl.value)">
+                    <mat-icon class="search-icon" aria-hidden="false" aria-label="Example search icon">search</mat-icon>
+                </a>
+                <mat-form-field class="search-mat-field">
+                    <input matInput placeholder="" (keyup.enter)="submitQuery(queryCtrl.value)" [matAutocomplete]="auto"
+                        [formControl]="queryCtrl">
+                    <mat-autocomplete #auto="matAutocomplete">
+                        <ng-container *ngIf="!isLoading">
+                            <mat-option *ngFor="let item of suggestions" [value]="item.label">
+                                <span>{{item.label}}</span>
+                            </mat-option>
+                        </ng-container>
+                    </mat-autocomplete>
+                </mat-form-field>
+            </div>
+            <mat-slide-toggle class="generator-toggle" [(ngModel)]="generatorMode">Text Generator</mat-slide-toggle>
+        </div>
+    </div>
+</div>
+<div class="spell-wrapper" *ngIf="spellChecked">
+    <h4 class="search-spell-checked">Keine Ergebnisse für „{{ originalSearch }}“. Angezeigt werden Suchergebnisse für: „<a class="search-spell-link" (click)="submitQuery(spellChecked)">{{ spellChecked }}</a>“.</h4>
+</div>
+<!-- <mat-chip-list>
+    <mat-chip *ngFor="let company of searchSuggestions" (click)="openPage(company)">{{ company }}</mat-chip>
+</mat-chip-list>   -->
+<mat-tab-group dynamicHeight (selectedTabChange)="onTabChange($event)" [(selectedIndex)]="selectedTab">
+    <mat-tab label="Start">
+        <ng-template matTabContent>
+            <div class="container result-container" fxLayout fxLayout.xs="column">
+                <div *ngIf="isDataAvailable" class="content-wrapper" fxFlex="100" fxFlex.xl="75" fxFlex.lg="75" [ngSwitch]="resultType">
+                    <div class="result-loading" *ngSwitchCase="resultStateEnum.default"><img src="../../../assets/loading.jpg"/></div>
+                    <app-data-table [data]="tableData" [tab]="'start'" *ngSwitchCase="resultStateEnum.table"></app-data-table>
+                    <app-data-map [data]="mapData" [tab]="'start'" *ngSwitchCase="resultStateEnum.map"></app-data-map>
+                    <app-data-graph [data]="graphData" [tab]="'start'" *ngSwitchCase="resultStateEnum.graph"></app-data-graph>
+                    <app-data-card (tabChange)="getTab($event)" [data]="cardData" [tab]="'start'" *ngSwitchCase="resultStateEnum.card"></app-data-card>
+                    <app-data-generator [data]="generatorData" *ngSwitchCase="resultStateEnum.generator"></app-data-generator>
+                    <app-data-barchart [data]="barchartData" [tab]="'start'" *ngSwitchCase="resultStateEnum.barchart"></app-data-barchart>
+                    <app-data-stockchart [data]="stockchartData" [tab]="'start'" *ngSwitchCase="resultStateEnum.stockchart"></app-data-stockchart>
+                    <app-error-display [data]="errorData" [tab]="'start'" *ngSwitchCase="resultStateEnum.error"></app-error-display>       
+                </div>
+            </div>
+        </ng-template>
+    </mat-tab>
+    <mat-tab label="Bearbeiten" *ngIf="resultType == resultStateEnum.card"> 
+        <ng-template matTabContent>
+            <div class="container result-container" fxLayout fxLayout.xs="column">
+                <div *ngIf="isDataAvailable" class="content-wrapper" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="90" fxFlex.lg="85" fxFlex="75" [ngSwitch]="resultType">
+                    <div class="result-loading" *ngSwitchCase="resultStateEnum.default"><img src="../../../assets/loading.jpg"/></div>
+                    <app-data-table [data]="tableData" [tab]="'edit'" *ngSwitchCase="resultStateEnum.table"></app-data-table>
+                    <app-data-map [data]="mapData" [tab]="'edit'" *ngSwitchCase="resultStateEnum.map"></app-data-map>
+                    <app-data-graph [data]="graphData" [tab]="'edit'" *ngSwitchCase="resultStateEnum.graph"></app-data-graph>
+                    <app-data-card (tabChange)="getTab($event)" [data]="cardData" [tab]="'edit'" *ngSwitchCase="resultStateEnum.card"></app-data-card>
+                    <app-data-barchart [data]="barchartData" [tab]="'edit'" *ngSwitchCase="resultStateEnum.barchart"></app-data-barchart>
+                    <app-data-stockchart [data]="stockchartData" [tab]="'edit'" *ngSwitchCase="resultStateEnum.stockchart"></app-data-stockchart>
+                    <app-error-display [data]="errorData" [tab]="'edit'" *ngSwitchCase="resultStateEnum.error"></app-error-display>       
+                </div>
+            </div>
+        </ng-template>
+    </mat-tab>
+    <!-- <mat-tab label="Bewerten">
+        <div class="container result-container" fxLayout fxLayout.xs="column">
+            <div *ngIf="isDataAvailable" class="content-wrapper" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="90" fxFlex.lg="85" fxFlex="75" [ngSwitch]="x">
+                <div class="result-loading" *ngSwitchCase="0"><img src="../../../assets/loading.jpg"/></div>
+                <app-data-table [data]="tableData" [tab]="'rate'" *ngSwitchCase="1"></app-data-table>
+                <app-data-map [data]="mapData" [tab]="'rate'" *ngSwitchCase="2"></app-data-map>
+                <app-data-graph [data]="graphData" [tab]="'rate'" *ngSwitchCase="3"></app-data-graph>
+                <app-data-card [data]="cardData" [tab]="'rate'" *ngSwitchCase="4"></app-data-card>
+                <app-error-display [data]="errorData" [tab]="'rate'" *ngSwitchCase="5"></app-error-display>       
+            </div>
+        </div>
+    </mat-tab> -->
+  </mat-tab-group>

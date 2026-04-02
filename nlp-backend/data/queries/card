@@ -1,0 +1,52 @@
+			PREFIX dbo: <http://dbpedia.org/ontology/>       
+			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>    
+			PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			PREFIX xsd: <http://www.w3.org/TR/swbp-xsch-datatypes/>
+			PREFIX db-datatypes: <http://dbpedia.org/datatype/>
+			PREFIX dbp:  <http://dbpedia.org/property/>       
+
+			SELECT DISTINCT
+			?iri as ?entity
+			(str(?lbl) as ?title)
+			(str(?Beschreibung) as ?Beschreibung)
+			?Aktiva
+			?Eigenkapital
+			?Umsatz
+			?Nettogewinn
+			MAX(?logo) as ?thumbnail
+			(GROUP_CONCAT(distinct ?ceo_entity; separator=", ") as ?CEO)
+			(GROUP_CONCAT(distinct ?foundLoc;separator=", ") as ?Gründungsort)
+			(GROUP_CONCAT(distinct ?founder; separator=", ") as ?Gründer)
+			(GROUP_CONCAT(distinct ?Produkt; separator=", ") as ?Produkt)
+			(GROUP_CONCAT(distinct ?Branche; separator=", ") as ?Branche)
+			(GROUP_CONCAT(distinct ?location; separator=", ") as ?Ort)
+			(COUNT(?property) as ?propertyCount)
+			WHERE {
+			  ?iri a dbo:Company ;
+			       rdfs:label ?lbl .
+			  ?lbl bif:contains "%(comp)s"@en  .
+			  FILTER( langMatches(lang(?lbl),"en") )
+
+			  OPTIONAL {?iri dbo:abstract ?Beschreibung
+			  FILTER( langMatches(lang(?Beschreibung),"de") )}
+			  OPTIONAL {?iri dbo:assets ?Aktiva}
+			  OPTIONAL {?iri dbo:equity ?Eigenkapital}
+			  OPTIONAL {?iri dbo:revenue ?Umsatz}
+			  OPTIONAL {?iri dbo:netIncome ?Nettogewinn}
+			  OPTIONAL {?iri dbp:depiction|dbo:thumbnail ?logo}
+			  OPTIONAL {?iri dbo:foundationPlace/dbp:name ?foundLoc}
+			  OPTIONAL {?iri dbo:foundedBy/dbp:name ?founder}
+			  OPTIONAL {?iri dbo:keyPerson/dbp:name ?ceo_entity}
+			  OPTIONAL {?iri dbo:industry/rdfs:label ?Branche
+			  filter langMatches(lang(?Branche),"de")}
+			  OPTIONAL {?iri dbo:product/rdfs:label ?Produkt
+			  filter langMatches(lang(?Produkt),"de")}
+			  OPTIONAL {?iri dbo:locationCity/rdfs:label ?location
+			  filter langMatches(lang(?location),"de")}
+			  OPTIONAL {
+			    VALUES ?p { dbo:assets dbo:equity dbp:depiction dbo:thumbnail dbo:foundationPlace dbo:keyPerson dbo:revenue dbo:netIncome dbo:industry dbo:product dbo:location}
+			    ?iri ?p ?property .
+			  }
+			 
+			}
+			ORDER BY DESC (?propertyCount)

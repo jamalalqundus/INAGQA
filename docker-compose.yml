@@ -1,0 +1,143 @@
+version: "3.5"
+
+volumes:
+    virtuoso-data:
+
+
+services:
+  frontend:
+    container_name: "${CONTAINER_PREFIX}frontend"
+    environment:
+      API_URL: http://localhost:8070/api/
+      QUERY_ENDPOINT: query
+      AUTOSUGGEST_ENDPOINT: autosuggest
+      ATTRIBUTES_ENDPOINT: properties
+      SUBMITATTRIBUTES_ENDPOINT: insert
+      CONSTRAINTS_ENDPOINT: constraints
+      EXTRA_SUBNETS: 192.168.0.1/24
+      TINYPROXY: "on"
+    build:
+      context: ./frontend
+      target: "develop-stage"
+    volumes:
+      - "./frontend:/app"
+      - "/app/node_modules"
+    ports:
+      - "2003:8080"
+
+
+  relation-api:
+    container_name: "${CONTAINER_PREFIX}relation-api"
+    build: ./relation-api/
+    ports:
+      - "4545:4545"
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    ##volumes:
+    ##  - ./relation-api/data/model:/usr/data/model
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+
+
+  nlp:
+    build: ./nlp-backend
+    container_name: "${CONTAINER_PREFIX}nlp"
+    ports:
+      - "8070:8070"
+    environment:
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+      - MQTT_KEEPALIVE=60
+      - MQTT_NO_DATA=topic/entityNotFound
+      - MQTT_ANSWER=topic/suggestAnswer
+      - SPARQL_ENDPOINT=http://api4kb.eco-qa.demo.quartor.apps.osc.fokus.fraunhofer.de/cisqa20-api4kb-backend-0.1.0/api/sparql
+      - RELATION_ENDPOINT=http://relation-api:4545/api/get_relation
+      #- SPARQL_ENDPOINT=http://api4kb:8080/cisqa20-api4kb-backend-0.1.0/api/sparql/
+    volumes:
+      - ./nlp-backend/log:/usr/log
+      # - ./nlp-backend/src/backend_application:/usr/src/backend_application
+
+      
+  mosquitto:
+    image: eclipse-mosquitto:1.6
+    container_name: "${CONTAINER_PREFIX}mosquitto"
+    ports:
+      - "1883:1883"    
+
+  subscriber:
+    build: ./we-mqtt-qa
+    container_name: "${CONTAINER_PREFIX}suggestion_subscriber"    
+
+
+  elasticsearch:
+    container_name: "${CONTAINER_PREFIX}elasticsearch"
+    #image: docker.elastic.co/elasticsearch/elasticsearch:7.13.1
+    build: elasticsearch
+    environment:
+      - node.name=es
+      - cluster.name=es-docker-cluster
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 9201:9200
+    volumes:
+      - ./elasticsearch:/usr/elasticsearch
+    command: bash -c "/usr/elasticsearch/wait-for-it.sh -t 0 localhost:9200 -- python3 /usr/elasticsearch/addIndex.py & docker-entrypoint.sh"
+
+
+
+  es-indexer:
+      container_name: "${CONTAINER_PREFIX}es-indexer"
+      build: ./es-indexer
+      #entrypoint: /bin/true #disabled
+      environment:
+        - ELASTICSEARCH_URL=http://elasticsearch:9200
+      volumes:
+        - type: bind
+          source: ./es-indexer/addIndex.py
+          target: /app/addIndex.py
+        - type: bind
+          source: ./es-indexer/data
+          target: /app/data
+
+
+  tests:
+      container_name: "${CONTAINER_PREFIX}tests"
+      build: ./tests
+
+##  api4kb:
+##    image: dockerhub.fokus.fraunhofer.de:5000/quratorap1/cisqa20-api4kb-build
+##    container_name: "${CONTAINER_PREFIX}api4kb"
+##    environment:
+##      #- VIRTUOSO_SPARQL=http://virtuoso:8890/sparql/
+##      #- VIRTUOSO_RDF=http://virtuoso:8890/sparql-graph-crud-auth
+##      - VIRTUOSO_SPARQL=http://virtuoso.eco-qa.demo.quartor.apps.osc.fokus.fraunhofer.de/sparql/
+##      - VIRTUOSO_RDF=http://virtuoso.eco-qa.demo.quartor.apps.osc.fokus.fraunhofer.de/sparql-graph-crud-auth
+##      - VIRTUOSO_PASSWORD=mysecret
+##      - VIRTUOSO_USER=dba
+##      - MQTT_BROKER_ADDRESS=tcp://mosquitto:1883 
+##    ports: 
+##      - "8091:8080"
+
+
+## virtuoso triple store
+##  virtuoso:
+##    image: openlink/virtuoso-opensource-7
+##    container_name: "${CONTAINER_PREFIX}virtuoso"
+##    environment:
+##      DBA_PASSWORD: mysecret
+##      DAV_PASSWORD: mysecret
+##    ports:
+##      - "1111:1111"
+##      - "8890:8890"
+##    volumes:
+##      - virtuoso-data:/database
+
+  

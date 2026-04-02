@@ -1,0 +1,56 @@
+---
+info:
+  description: "This is the getRelation endpoint specification."
+  title: "getRelation REST API"
+  version: "0.1"
+openapi: "3.0.0"
+
+servers:
+  - url: "{protocol}://0.0.0.0:4545/api"
+    variables:
+      protocol:
+        enum:
+          - http
+          - https
+        default: http
+tags:
+  - name: "get_relation"
+    description: "Handle incoming headwords."
+
+paths:
+  /get_relation:
+    post:
+      summary: "Gets Headwords and maps them to a uri"
+      tags:
+        - headwords
+      operationId: relationAPI_application.main.get_relation
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                headwords:
+                  description: "Extracted Headwords"
+                  type: string
+        required: true
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/QueryResponse"
+          description: OK
+        400:
+          description: "Invalid provider or format"
+        401:
+          description: "No courses found"
+        500:
+          description: "Internal Server Error"
+components:
+  schemas:
+    QueryResponse:
+      type: object
+      properties:
+        URIs:
+          type: array

@@ -1,0 +1,25 @@
+<div class="table-wrapper">
+  <table mat-table [dataSource]="data.rows.slice(firstIndex, lastIndex)" class="location-table">
+    <ng-container *ngFor="let column of displayedColumns; let i = index" [matColumnDef]="column">
+        <th mat-header-cell *matHeaderCellDef> {{ column }} </th>
+        <td  mat-cell *matCellDef="let element" [ngSwitch]="displayedColumnsTypes[i]">
+          <div *ngSwitchCase="'date'">
+            {{ printDate(element[i]) }}
+          </div>
+          <div *ngSwitchCase="'literal'">
+            {{ element[i] }}
+          </div>
+          <a *ngSwitchCase="'url'" href="{{element[i].href}}" class="weblink">
+            {{ element[i].label }}
+          </a>
+          <div *ngSwitchDefault>
+            {{ element[i] }}
+          </div>
+        </td>
+        </ng-container>
+        
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>    
+</div>
+<mat-paginator *ngIf="data.rows.length > 1" class="table-paginator" [length]="data.rows.length" [pageSize]="pageSize" [pageSizeOptions]="pageSizeOptions" showFirstLastButtons (page)="pageEvent = $event; setPagination(pageEvent.pageIndex * pageEvent.pageSize, pageEvent.pageIndex * pageEvent.pageSize + pageEvent.pageSize)"></mat-paginator>

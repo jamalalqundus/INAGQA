@@ -1,0 +1,48 @@
+.search-icon {
+    right: 10px;
+}
+
+.result-loading {
+    text-align: center;
+    display: block;
+}
+
+.result-loading img {
+    width: 10%;
+}
+
+.content-wrapper {
+ overflow: auto;
+}
+
+.mat-tab-label {
+    color: white;
+}
+
+.search-spell-link {
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.spell-wrapper {
+    padding: 0px 20px;
+}
+
+.mat-chip-list-wrapper {
+    padding: 0 20px;
+}
+
+.mat-chip {
+    cursor: pointer !important;
+}
+
+.search-bar {
+    align-items: center;
+}
+
+.generator-toggle {
+    margin-left: 15px;
+}
+

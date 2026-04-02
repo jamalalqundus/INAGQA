@@ -1,0 +1,47 @@
+agm-map {
+    height: 330px;
+    width: 100%;
+    color: black;
+    border-radius: 25px;
+}
+.location-table {
+    width: 100%;
+    border-spacing: none;
+    background-color: transparent;
+}
+
+.mat-cell {
+    white-space: pre-wrap;
+    padding: 20px;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.mat-cell.selected {
+    background-color: white;
+    color: rgba(1, 23, 43, 0.8);
+}
+
+.mat-header-cell {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: white;
+    border-color: white;
+}
+
+.map-container {
+    height: 100%;
+}
+
+.table-wrapper {
+    overflow: auto;
+    background-color: rgba(1, 23, 43, 0.8);
+}
+
+.title {
+    padding: 15px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 30px;
+}

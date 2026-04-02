@@ -1,0 +1,107 @@
+#https://stackoverflow.com/questions/14299006/how-to-access-google-search-right-hand-side-data-programmatically
+#https://yago-knowledge.org/sparql/query
+#https://rdflib.dev/sparqlwrapper/
+
+import paho.mqtt.client as mqtt #import the client1
+import time
+import json
+import urllib
+import requests
+from bs4 import BeautifulSoup
+from qwikidata.sparql  import return_sparql_query_results
+
+from config import settings
+
+data_set_json=[]
+
+def request_wikidata(params):
+    return requests.get(settings['API_ENDPOINT_WIKIDATA'], params=params).json()
+
+def ask_wikidata_ts(entity):
+    #
+    query = entity.replace('_',' ')
+    
+    #clear json otherwise suggestions of older quesions will be collected
+    data_set_json.clear()
+    params = {
+        'action': 'wbsearchentities',
+        'format': 'json',
+        'language': 'en',
+        'search': query
+    }
+
+    r = request_wikidata(params = params)
+    #print(r)
+    data_set={}
+    for item in r['search']:        
+        print("-----------------")
+        print("Name:",item['label'])
+        try:
+            print("wikidata_url: ",item['url'])
+        except:
+            pass
+        try:
+            print("Description: ",item['description'])
+        except:
+            pass
+        try:
+            params_company ={
+                'action':'wbgetentities',
+                'format':'json',
+                'sites':'enwiki',
+                'props':'claims',
+                'titles':item['label']
+            }
+            company_json = request_wikidata(params=params_company)
+            company_url=company_json['entities'][item['id']]['claims']['P856'][0]['mainsnak']['datavalue']['value']
+            print('official page: ',company_url)
+        except:
+            print("no url to official page found")
+                    
+        data_set["query"]=entity
+        data_set["properties"]=[
+            {"property":"Unternehmensname","type":"literal", "value":item['label']},
+            {"property":"Wikidata url","type":"url", "value":item['url']},
+            {"property":"Unternemensauftritt","url":"literal", "value":company_url}]
+        data_set_json.append(data_set)
+    print(" ------------ AS JSON ARRAY -------------")
+    print(json.dumps(data_set_json))
+############### subscriber
+
+def on_connect(client, userdata, flags, rc):
+  print("Connected with result code "+str(rc))
+  client.subscribe(settings['event_message'])
+
+def on_message(client, userdata, msg):
+    print(msg.payload.decode())
+    if msg.payload.decode() !='':
+        print("Yes!", str(msg.payload.decode()), ' was received')
+        ask_wikidata_ts(str(msg.payload.decode()))
+
+    #keep running
+#    client.disconnect()
+
+def on_log(client, userdata, level, buf):
+    print("subscriber log: ",buf)
+
+
+############ start client-subscriber
+#client = mqtt.Client(transport="websockets") and changing port from ssl tcp to ssl websocket.
+client = mqtt.Client()
+client.connect(settings['broker_address'], port=settings['port'], keepalive=settings['keepalive'], bind_address="")
+
+client.on_log=on_log
+client.on_connect = on_connect
+client.on_message = on_message
+
+
+client.loop_forever()
+
+while True:
+    try:
+        time.sleep(2)
+    except KeyboardInterrupt:
+        client.loop_stop()
+        client.disconnect()
+        break
+print("disconnect client")

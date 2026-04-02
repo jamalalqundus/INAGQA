@@ -1,0 +1,93 @@
+stages:
+    - build
+    - deploy
+    - maintain
+
+#job templates:
+
+.kaniko-build: &kaniko-build
+    stage: build
+    image:
+        name: gcr.io/kaniko-project/executor:debug
+        entrypoint: [""]
+    variables:
+        CI_IMAGE_APPENDIX: ""
+        CI_DOCKER_CONTEXT: $CI_PROJECT_DIR
+        CI_DOCKER_FILE: "Dockerfile"
+        CI_IMAGE_TAG: "latest"
+        CI_ADDITIONAL_ARGS: ""
+    script:
+        - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+        - /kaniko/executor --context ${CI_DOCKER_CONTEXT} --dockerfile ${CI_DOCKER_CONTEXT}/${CI_DOCKER_FILE} --destination ${CI_REGISTRY_IMAGE}${CI_IMAGE_APPENDIX}:${CI_IMAGE_TAG} ${CI_ADDITIONAL_ARGS}
+
+.openshift-deploy: &openshift-deploy
+    stage: deploy
+    image:
+        name: openshift/origin-cli
+    variables:
+        CI_IMAGE_APPENDIX: ""
+        CI_IMAGE_TAG: "latest"
+        CI_OSC_PROJECT: "qurator"
+        CI_OSC_IMAGESTREAM_NAME: ""
+    before_script:
+        - oc login "$OSC_SERVER" --token="$OSC_TOKEN" --insecure-skip-tls-verify
+        - oc project "$CI_OSC_PROJECT"
+    script:
+        #only update imagestreams for previosly manually created deployments
+        - oc tag ${CI_REGISTRY_IMAGE}${CI_IMAGE_APPENDIX}:${CI_IMAGE_TAG} $CI_OSC_IMAGESTREAM_NAME:${CI_IMAGE_TAG}
+
+.openshift-job: &openshift-job
+    stage: maintain
+    image:
+        name: openshift/origin-cli
+    variables:
+        CI_OPENSHIFT_JOB_NAME: "openshift-job"
+        CI_ADDITIONAL_OC_RUN_ARGS: ""
+        CI_IMAGE_APPENDIX: ""
+        CI_IMAGE_TAG: "latest"
+    before_script:
+        - oc login "$OSC_SERVER" --token="$OSC_TOKEN" --insecure-skip-tls-verify
+        - oc project "qurator"
+    script:
+        - oc run -i $CI_OPENSHIFT_JOB_NAME --image="$CI_REGISTRY_IMAGE$CI_IMAGE_APPENDIX:$CI_IMAGE_TAG" --restart=Never --rm=true $CI_ADDITIONAL_OC_RUN_ARGS
+    when: manual
+    only:
+        refs:
+            - master
+                        
+# container builds:
+
+build-suggestion-subscriber-master:
+    <<: *kaniko-build
+    variables:
+        CI_IMAGE_APPENDIX: "/suggestion_subscriber"
+        CI_DOCKER_CONTEXT: $CI_PROJECT_DIR
+        CI_DOCKER_FILE: "Dockerfile"
+        CI_IMAGE_TAG: "latest"
+    only:
+        refs:
+            - master
+
+build-suggestion-subscriber-branch:
+    <<: *kaniko-build
+    variables:
+        CI_IMAGE_APPENDIX: "/suggestion_subscriber"
+        CI_DOCKER_CONTEXT: $CI_PROJECT_DIR
+        CI_DOCKER_FILE: "Dockerfile"
+        CI_IMAGE_TAG: $CI_COMMIT_REF_SLUG
+    except:
+        - master
+
+
+# openshift deploy
+
+deploy-suggestion-subscriber-openshift:
+    <<: *openshift-deploy
+    variables:
+        CI_IMAGE_APPENDIX: "/suggestion_subscriber"
+        CI_IMAGE_TAG: "latest"
+        CI_OSC_PROJECT: "qurator"
+        CI_OSC_IMAGESTREAM_NAME: "eco-qa-suggestion-subscriber"
+    only:
+        refs:
+            - master

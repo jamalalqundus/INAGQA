@@ -1,0 +1,97 @@
+<div class="card" fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="start" *ngIf="tab == 'start'">
+    <div class="image-wrapper" fxFlex="20">
+        <img src="{{data.thumbnail}}">
+    </div>
+    <div fxLayout="column" fxLayoutAlign="center" fxLayoutGap="10px" fxFlex="80">
+        <div class="title">{{data.title}}</div>
+        <mat-divider class="divider"></mat-divider>
+        <div *ngFor="let infoRow of data.properties" fxLayout class="info-row">           
+            <div class="category" fxFlex="25">{{strip_label(infoRow.property)}}</div>
+            <div class="category-content" fxFlex="75" [ngSwitch]="infoRow.datatype">
+                <div *ngSwitchCase="'http://dbpedia.org/datatype/Currency'">
+                    {{ printBigNumber(infoRow.value) }}
+                </div>
+                <div *ngSwitchDefault>
+                    {{infoRow.value}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card" fxLayout fxLayout.xs="column" fxLayoutAlign="center" *ngIf="tab == 'edit'">
+    <div class="info" fxFlex="100" fxLayout="column" fxLayoutAlign="center" fxLayoutGap="1em">
+        <div class="info-box" fxLayout="column">
+            <div class="title">{{data.title}}</div>
+            <div class="form-wrapper">
+                <div class="properties" @attributes *ngFor="let element of data.properties; let i = index">
+                    <div class="properties" fxLayout="row">
+                        <div class="form-label">
+                            <form fxLayout [formGroup]="labelForm">  
+                                <mat-form-field form-style appearance="standard" color="accent">
+                                    <mat-label>Bezeichnung</mat-label>
+                                    <input matInput class="" formControlName="{{element.property}}" value="{{element.property}}">
+                                </mat-form-field>
+                            </form>    
+                        </div>
+                        <div class="form-value">
+                            <form fxLayout [formGroup]="valueForm">  
+                                <mat-form-field form-style appearance="outline" color="accent">
+                                    <mat-label>Wert</mat-label>
+                                    <textarea matInput class="" formControlName="{{element.property}}" value="{{element.value}}"></textarea>
+                                </mat-form-field>
+                            </form>        
+                        </div>
+                        <mat-icon class="delete-icon" (click)="deleteField(element, i)">delete</mat-icon>
+                    </div>
+                    <mat-divider class="form-divider"></mat-divider>    
+                </div>
+            </div>
+        </div>
+        <div class="modification-button-row">
+            <!-- <button mat-button color="accent" (click)="addField()">Feld hinzufügen</button> -->
+            <button mat-button color="warn" (click)="goBackToStart()">Abbrechen</button>
+            <button mat-button color="primary" (click)="onSubmit()">Speichern</button>
+        </div>
+    </div>
+</div>
+<div class="card" fxLayout fxLayout.xs="column" fxLayoutAlign="center" *ngIf="tab == 'rate'">
+    <div class="info" fxFlex="70" fxLayout="column" fxLayoutAlign="center" fxLayoutGap="10px">
+        <div class="info-box" fxLayout="column">
+            <div class="title">{{data.title}}</div>
+            <div *ngFor="let infoRow of data.properties; let index = index" fxLayout>           
+                <div class="category" fxFlex="40">{{infoRow.property}}</div>
+                <div class="category-content" fxFlex="60" [ngSwitch]="infoRow.type">
+                    <div *ngSwitchCase="'literal'">
+                        {{infoRow.value}}
+                    </div>
+                    <div *ngSwitchCase="'typed-literal'">
+                        {{ printBigNumber(infoRow.value) }}
+                    </div>
+                    <div *ngSwitchDefault>
+                        {{infoRow.value}}
+                    </div>
+                </div>
+                <mat-slider
+                    [max]="max"
+                    [min]="min"
+                    [step]="step"
+                    [thumbLabel]="thumbLabel"
+                    [(ngModel)]="value[index]"
+                    (change)="calculateRating()">
+                </mat-slider>
+            </div>
+        </div>
+        <div class="modification-button-row">
+            <div class="total-rating-label">Gesamt: </div> 
+            <mat-slider
+                [max]="max"
+                [min]="min"
+                [step]="step"
+                [thumbLabel]="thumbLabel"
+                [(ngModel)]="value[data.properties.length]">
+            </mat-slider>
+            <button mat-button color="warn">Abbrechen</button>
+            <button mat-button color="primary">Speichern</button>
+        </div>
+    </div>
+</div>

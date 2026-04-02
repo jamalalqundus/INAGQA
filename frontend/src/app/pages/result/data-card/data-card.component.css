@@ -1,0 +1,110 @@
+img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.photo {
+    margin: 0;
+    padding: 0;
+}
+
+.before-icon, .next-icon {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.category, .category-content {
+    padding: 15px;
+    padding-left: 15px;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.title {
+    padding: 15px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.info-box {
+    overflow: auto;
+    max-height: 75vh;
+    color: white;
+}
+
+.change-info {
+    justify-content: flex-end;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-paginator {
+    background-color: inherit;
+    color: white;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.modification-button-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+::ng-deep .mat-slider-thumb-label {
+    transform: rotate(45deg) !important;
+    border-radius: 50% 50% 0 !important;
+}
+
+::ng-deep .mat-slider-thumb {
+    transform: scale(0) !important;
+}
+  
+::ng-deep .mat-slider-thumb-label-text {
+    opacity: 1 !important;
+}
+
+.total-rating-label {
+    margin-right: 1em;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-left: 0;
+}
+
+.divider {
+    border-top-color: white;
+    border-top-width: 3px;
+}
+
+.form-divider {
+    border-top: 10px solid #3b3838;
+}
+
+.form-value {
+    width: 100%;
+}
+
+.delete-icon {
+    padding: 5px;
+    cursor: pointer;
+}

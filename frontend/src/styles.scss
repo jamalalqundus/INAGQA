@@ -1,0 +1,79 @@
+@import '~@angular/material/theming';
+@include mat-core();
+$underline-color: white;
+$app-primary: mat-palette($mat-indigo);
+$app-accent:  mat-palette($mat-teal, A200, A100, A400);
+$app-warn:    mat-palette($mat-red);
+$app-theme:   mat-light-theme($app-primary, $app-accent, $app-warn);
+@include angular-material-theme($app-theme); 
+
+
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(59, 56, 56); /*  Replace with new background image */
+    /* background: url('./assets/background.png');
+    background-repeat: repeat-y;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+.search-mat-field .mat-form-field-underline{
+    background:white !important;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+
+.mat-autocomplete-panel {
+    border-radius: 0px !important;
+}
+
+.search-field {
+    background: rgba(41, 108, 89, 0.27);
+    width: 100%;
+}
+
+.search-mat-field {
+    width: 90%;
+}
+
+.container {
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    top: 2px;
+}
+
+.search-icon {
+    position: relative;
+    top: 15px;
+}
+
+.mat-input-element {
+    caret-color: white;
+}
+
+.mat-form-field[form-style] {
+    .mat-form-field-label{
+        color: white;
+    }
+
+    .mat-form-field-wrapper {
+        margin: 5px;
+    }
+}
+
+.mat-form-field-appearance-standard .mat-form-field-underline {
+    background: white;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: white;
+}
+  

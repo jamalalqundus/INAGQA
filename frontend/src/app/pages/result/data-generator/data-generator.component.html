@@ -1,0 +1,10 @@
+<div class="generator-wrapper">
+    <mat-form-field form-style appearance="outline" color="accent" [formGroup]="outputGroup">
+        <mat-label>Generierter Text</mat-label>
+        <textarea matInput formControlName="outputData" value="{{outputString}}"></textarea>
+    </mat-form-field>
+    <div class="modification-button-row">
+        <button mat-button color="warn">Abbrechen</button>
+        <button mat-button color="primary" (click)="onSubmit()">Speichern</button>
+    </div>
+</div>

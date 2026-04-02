@@ -1,0 +1,11 @@
+{
+    "API_URL": "{{ default .Env.API_URL "http://localhost:8070/api/" }}",
+    "QUERY_ENDPOINT": "{{ default .Env.QUERY_ENDPOINT "query" }}",
+    "AUTOSUGGEST_ENDPOINT": "{{ default .Env.AUTOSUGGEST_ENDPOINT "autosuggest" }}",
+    "ATTRIBUTES_ENDPOINT": "{{ default .Env.ATTRIBUTES_ENDPOINT "properties" }}",
+    "SUBMITATTRIBUTES_ENDPOINT": "{{ default .Env.SUBMITATTRIBUTES_ENDPOINT "insert" }}",
+    "CONSTRAINTS_ENDPOINT": "{{ default .Env.CONSTRAINTS_ENDPOINT "constraints" }}",
+    "SUGGEST_QUESTION_ENDPOINT": "{{ default .Env.SUGGEST_QUESTION_ENDPOINT "suggestQuestion" }}",
+    "SUGGEST_ANSWER_ENDPOINT": "{{ default .Env.SUGGEST_ANSWER_ENDPOINT "suggestAnswer" }}",
+    "GET_TEXT_ENDPOINT": "{{ default .Env.GET_TEXT_ENDPOINT "getText" }}"
+}

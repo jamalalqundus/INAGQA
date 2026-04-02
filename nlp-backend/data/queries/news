@@ -1,0 +1,27 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbp:  <http://dbpedia.org/property/>
+      SELECT DISTINCT
+            (str(?wirecard_url) as ?URL)
+            (str(?news_header) as ?News_Header)
+            (str(?news_date) as ?Datum_News)
+
+             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+
+      WHERE {
+        ?iri a cisqa:dgap_message ;
+             cisqa:isDgapCategory "DGAP-Stimmrechtsanteile" .
+        ?iri cisqa:isAboutCompany ?company .
+        ?company rdfs:label ?lbl .
+        FILTER regex( ?lbl,"%(comp)s", "i")
+
+
+              OPTIONAL{ ?iri cisqa:has_wirecard_url ?wirecard_url .}
+              OPTIONAL{ ?iri cisqa:has_news_header ?news_header .}
+              OPTIONAL{ ?iri cisqa:has_news_date ?news_date .}
+
+      }

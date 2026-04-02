@@ -1,0 +1,46 @@
+.table-wrapper {
+  background-color: rgba(1, 23, 43, 0.8);
+}
+
+.location-table {
+  width: 100%;
+  border-spacing: none;
+  background-color: transparent;
+}
+
+.mat-cell {
+  white-space: pre-wrap;
+  padding: 20px;
+  color: white;
+  border-color: white;
+}
+
+.mat-header-cell {
+  font-weight: 400;
+  font-size: 1.25em;
+  padding: 20px;
+  color: white;
+  border-color: white;
+}
+
+.table-paginator {
+  background-color: rgba(1, 23, 43, 0.8);
+  color: white;
+}
+
+::ng-deep .mat-select-value {
+  color: white;
+}
+
+::ng-deep .mat-select-arrow {
+    color: white;
+}
+
+::ng-deep .mat-form-field-label-wrapper {
+  border-bottom: 1px solid white;
+}
+
+.weblink {
+  color: white;
+  text-decoration: none;
+}

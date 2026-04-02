@@ -1,0 +1,24 @@
+
+<mat-toolbar>
+  <mat-toolbar-row fxLayoutGap="20px">
+    <img width="40" alt="Angular Logo"src="../assets/logo.png" />
+    <div fxShow="true">
+      <a href="/home" mat-button>Suche</a>
+    </div>
+    <div fxShow="true">
+      <a (click)="toggleDrawer()" mat-button><span [matBadge]="count != 0 ? count : null" matBadgeOverlap="false">Empfehlungen</span></a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container" autosize>
+  <mat-sidenav #drawer class="sidenav" mode="side" position="end">
+    <app-suggestions></app-suggestions>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="sidenav-content">
+    <div role="main">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>  

@@ -1,0 +1,54 @@
+<div class="suggestions-wrapper" fxLayout fxLayout.xs="row">
+    <div class="cancel-wrapper" fxFlex="10" fxFlex.lg="5" fxFlex.md="6"><a class="close-button" (click)="closeDrawer()"><mat-icon class="close-icon">play_arrow</mat-icon></a></div>
+    <mat-accordion>
+        <h2>Zuletzt gesucht: </h2>
+        <mat-expansion-panel hideToggle *ngFor="let query of data">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{ query.query }}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="read-mode">
+                <table *ngFor="let property of query.properties" [ngSwitch]="property.type" fxLayout fxLayout="row">
+                    <div *ngSwitchCase="'literal'">
+                        <th>{{ property.property }}:</th>
+                        <td>{{ property.value }}</td>
+                    </div>
+                    <div *ngSwitchCase="'url'">
+                        <th><a class="suggestion-urls" target="_blank" rel="noopener noreferrer" href="{{property.value}}">{{ property.property }}</a></th>
+                    </div>
+                </table>
+                <!-- <mat-divider class="divider"></mat-divider> -->
+                <!-- <div class="add-attribute-icon" (click)="navigateToQuery(query)"><mat-icon>forward</mat-icon><span>Informationen zum nächsten Suchergebnis hinzufügen</span></div>     -->
+            </div>
+            <!-- <div class="read-mode" *ngIf="router.url != '/result/edit/'+query.query">
+                <table *ngFor="let property of query.properties" [ngSwitch]="property.type" fxLayout fxLayout="row">
+                    <div *ngSwitchCase="'literal'">
+                        <th>{{ property.property }}:</th>
+                        <td>{{ property.value }}</td>
+                    </div>
+                    <div *ngSwitchCase="'url'">
+                        <th><a class="suggestion-urls" target="_blank" rel="noopener noreferrer" href="{{property.value}}">{{ property.property }}</a></th>
+                    </div>
+                </table>
+                <mat-divider class="divider"></mat-divider>
+                <div class="add-attribute-icon" (click)="navigateToQuery(query)"><mat-icon>forward</mat-icon><span>Informationen zum nächsten Suchergebnis hinzufügen</span></div>    
+            </div>
+            <div class="edit-mode" *ngIf="router.url == '/result/edit/'+query.query">
+                <table *ngFor="let property of query.properties" [ngSwitch]="property.type" fxLayout fxLayout="row">
+                    <mat-icon (click)="addToProperties([property])" class="add-attribute-icon">next_plan</mat-icon>
+                    <div *ngSwitchCase="'literal'">
+                        <th>{{ property.property }}:</th>
+                        <td>{{ property.value }}</td>
+                    </div>
+                    <div *ngSwitchCase="'url'">
+                        <th><a class="suggestion-urls" target="_blank" rel="noopener noreferrer" href="{{property.value}}">{{ property.property }}</a></th>
+                    </div>
+                </table>
+                <mat-divider class="divider"></mat-divider>
+                <div class="add-attribute-icon" (click)="addToProperties(query.properties)"><mat-icon>library_add</mat-icon><span>Alle Informationen hinzufügen</span></div>    
+            </div> -->
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" hideToggle></mat-expansion-panel>
+    </mat-accordion>
+</div>

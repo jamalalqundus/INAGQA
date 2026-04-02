@@ -1,0 +1,47 @@
+.search-section{
+    height:400px;
+    color: white;
+    padding: 50px 50px 0px 50px;
+}
+.search-section h1{
+   text-align: center;
+}
+
+.search-section  .search-field{
+    height: 70px;
+    margin-top: 10px;
+    background: rgba(41, 108, 89, 0.27);
+    padding: 15px;
+}
+.search-section .search-mat-field{
+  width: 90%;
+}
+.search-section .search-field .search-icon{
+    size: 35px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.suggest-questions {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 300;
+    transition: transform .4s;
+}
+
+.question:hover {
+    transform: scale(1.5);
+}
+
+.generator-toggle {
+    margin: 15px;
+}

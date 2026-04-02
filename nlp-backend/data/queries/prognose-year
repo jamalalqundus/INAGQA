@@ -1,0 +1,66 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX cisqa: <http://fokus.fraunhofer.de/KnowledgeGraph/2021/6/cisqa20/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+			SELECT DISTINCT
+
+                         ?lbl
+                         ?date
+
+                         ?Metrik
+                         ?Jahr          # Das Jahr fuer das die Prognose/Resultat gilt, wenn es fuer das Geschaftsjahr zB 2020/2021 kommt 2020 zurueck
+
+
+                         ?umsatz_currency
+                         ?umsatz_amount
+
+                                   
+
+
+            
+            FROM <http://fokus.fraunhofer.de/KnowledgeGraph/2021/6/cisqa20/>
+		    WHERE {
+			    ?iri a cisqa:dgap_message .             # pruefen ob es eine Nachricht ist
+
+
+                              ?iri a cisqa:ADHOC .      # Typ soll Adhoc nachricht sein
+			    ?iri cisqa:isAboutCompany ?company .    # Die company ueber die die Nachricht ist
+			    ?company rdfs:label ?lbl .              
+
+
+                  ?iri cisqa:onDate ?date.               # Datum der Nachricht
+                  FILTER  (datatype(?date) = xsd:date)
+                  ?iri cisqa:hasAdhocEvaluation ?eva .
+                  ?eva cisqa:type "Prognose" .                          # Adhoc Nachrichten nach Typ "Prognose" gefiltert
+
+
+
+
+                   ?eva cisqa:zeitraum ?zeitraum .
+                           #?zeitraum cisqa:zeitraum_metric "Geschäftsjahr" .
+                              ?zeitraum cisqa:zeitraum_metric ?Metrik .
+                               FILTER(REGEX(?Metrik, "tsjahr"))
+                           ?zeitraum cisqa:zeitraum_year %(date)s .
+                            FILTER NOT EXISTS {?zeitraum  cisqa:zeitraum_timespan ?Zeitspanne .
+                                    ?zeitraum  cisqa:zeitraum_position ?Position .  }
+                              ?zeitraum cisqa:zeitraum_year ?Jahr .
+                           OPTIONAL{?zeitraum  cisqa:zeitraum_timespan ?Zeitspanne .
+                                    ?zeitraum  cisqa:zeitraum_position ?Position .  }
+                            
+                  # Anfrage nach dem Umsatz
+                             ?eva cisqa:Umsatz ?umsatz .  
+                             ?umsatz cisqa:Umsatz_currency "eur" . 
+                             ?umsatz cisqa:Umsatz_currency ?umsatz_currency .
+                             ?umsatz cisqa:Umsatz_amount ?umsatz_amount .
+
+
+
+
+
+			}
+ORDER BY DESC(?date)
+LIMIT 2000

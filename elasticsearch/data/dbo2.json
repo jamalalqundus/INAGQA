@@ -1,0 +1,407 @@
+{"_source":{"uri":"isDgapCategory","label":"Kategorie"}}
+{"_source":{"uri":"isAboutCompany","label":"Unternehmen"}}
+{"_source":{"uri":"isAboutCompany","label":"Adhoc Nachrichten"}}
+{"_source":{"uri":"hasHtmlSplit","label":"HTML"}}
+{"_source":{"uri":"wasLastModified","label":"Aenderungsdatum"}}
+{"_source":{"uri":"onDate","label":"Datum"}}   
+{"_source":{"uri":"hasTitle","label":"Titel"}}
+{"_source":{"uri":"hasTopNews","label":"Text oben"}}
+{"_source":{"uri":"hasBottomNews","label":"Text unten"}}
+{"_source":{"uri":"hasMainNewsSplit","label":"Haupttext"}}
+{"_source":{"uri":"hasAuthor","label":"Author"}}
+{"_source":{"uri":"isOfLanguage","label":"Sprache"}}
+{"_source":{"uri":"hastypeFinanceInstrument","label":"Finanzinstrumente"}}
+{"_source":{"uri":"dateTransaction","label":"Datum Transaktion"}}
+{"_source":{"uri":"hasAggrPriceVolume","label":"aggregiertes Preisvolumen"}}
+{"_source":{"uri":"hasMic","label":"MIC"}}
+{"_source":{"uri":"hasPriceVolume","label":"Preisvolumen"}}
+{"_source":{"uri":"hasPlaceOfTransaction","label":"Ort Transaktion"}}
+{"_source":{"uri":"isDealType","label":"Art Handel"}}
+{"_source":{"uri":"hasReason","label":"Grund"}}
+{"_source":{"uri":"hasPersons","label":"Personen"}}
+{"_source":{"uri":"hasEffectiveDate","label":"Eintrittsdatum"}}
+{"_source":{"uri":"hasCapitalMeasure","label":"Kapitalmassnahme"}}
+{"_source":{"uri":"hasTotalVotingRights","label":"Gesamtstimmrechte"}}
+{"_source":{"uri":"hasMiscellaneous","label":"Sonstiges"}}
+{"_source":{"uri":"hasPowerOfAttourny","label":"Vollmacht"}}
+{"_source":{"uri":"hasPowerOfInstruments1","label":"Instrumente 1"}}
+{"_source":{"uri":"hasPowerOfInstruments2","label":"Instrumente 2"}}
+{"_source":{"uri":"hasShareholders","label":"Aktionaer"}}
+{"_source":{"uri":"hasEmitent","label":"Emitent"}}
+{"_source":{"uri":"hasNotifiableInfoSplit","label":"Meldungspflichtiger"}}
+{"_source":{"uri":"hasTotalShareVotingRights","label":"Gesamtzahl Stimmrechte"}}
+{"_source":{"uri":"hasDateThresholdCrossing","label":"Datum Schwellenueberschreitung"}}
+{"_source":{"uri":"hasTarget","label":"Zielgesellschaft"}}
+{"_source":{"uri":"hasBidder","label":"Bieter"}}
+{"_source":{"uri":"isPart","label":"Teilnummer"}}
+{"_source":{"uri":"hasContent","label":"Inhalt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/thumbnail","label":"Miniaturansicht"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageID","label":"Wikipage-Seiten-ID"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageRevisionID","label":"Wikipage Revisions-ID"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageWikiLink","label":"Link von einer Wikipage zu einer anderen Wikipage"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageExternalLink","label":"Link von einer Wikipage zu einer externen Seite"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/location","label":"Lage"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/location","label":"Decke"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/location","label":"Hülle"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/location","label":"Hülse"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/location","label":"Lage"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/location","label":"Schale"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/location","label":"Schicht"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/abstract","label":"hat abstrakt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/passengersPerDay","label":"Passagiere pro Tag"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/fate","label":"Schicksal"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/formerName","label":"früherer Name"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/foundingDate","label":"Gründungsdatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/foundingYear","label":"Gründungsjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfEmployees","label":"Anzahl der Angestellten"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfLocations","label":"Anzahl der Standorte"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/passengersPerYear","label":"Passagiere pro Jahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/purpose","label":"Zweck"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/revenue","label":"Einnahmen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/country","label":"Land"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/distributingCompany","label":"Vertriebsgesellschaft"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/distributingLabel","label":"Etikett verteilen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/division","label":"Einteilung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/foundedBy","label":"gegründet von"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/genre","label":"Genre"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/headquarter","label":"Hauptquartier"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/industry","label":"Industrie"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/keyPerson","label":"Schlüsselperson"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/keyPerson","label":"CEO"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/locationCountry","label":"Standort Land"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/operator","label":"Operator"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/owner","label":"Inhaber"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/owningCompany","label":"Eigentümer Firma"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/parentCompany","label":"Muttergesellschaft"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/predecessor","label":"Vorgänger"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/product","label":"Produkt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/regionServed","label":"Region serviert"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/service","label":"Bedienung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/subsidiary","label":"Tochtergesellschaft"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/type","label":"Art"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/destination","label":"Ziel"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/targetAirport","label":"Zielflughafen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/vehiclesInFleet","label":"Fahrzeugtypen in der Flotte"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageLength","label":"Seitenlänge der Wiki-Seite"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/icaoAirlineCode","label":"ICAO-Code"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageRedirects","label":"Wikipage-Weiterleitung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfLines","label":"anzahl der Zeilen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/originalName","label":"Originalname"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/successor","label":"Nachfolger"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/revenueYear","label":"Jahr der ausgewiesenen Einnahmen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/assets","label":"Vermögenswerte"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/assets","label":"Aktiva"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/closingDate","label":"Einsendeschluss"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/dissolutionDate","label":"Auflösungsdatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/dissolutionYear","label":"Auflösungsjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/equity","label":"Eigenkapital"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/equity","label":"Einkommen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/isPartOf","label":"ist ein Teil von"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageInterLanguageLink","label":"Link von einer Wikipage zu einer Wikipage in einer anderen Sprache über dasselbe oder ein verwandtes Thema."}}
+{"_source":{"uri":"http://dbpedia.org/ontology/iataAirlineCode","label":"IATA-Code"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/hubAirport","label":"Hub Flughafen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfOffices","label":"Anzahl der Büros"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/formationDate","label":"Trainingstermin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/fuelType","label":"Treibstoffart"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/importantStation","label":"wichtige Station"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/alliance","label":"Allianz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfLawyers","label":"Anzahl der Anwälte"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/netIncome","label":"Nettoeinkommen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/operatingIncome","label":"Betriebsergebnis"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/currentStatus","label":"aktueller Status"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/locationCity","label":"Standort Stadt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfVehicles","label":"Zahl der Fahrzeuge"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/reportingMark","label":"Meldemarke"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/trackLength","label":"Spurlänge"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/legalForm","label":"Rechtsform"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/typeOfElectrification","label":"Art der Elektrifizierung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/closingYear","label":"Abschlussjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfStations","label":"Anzahl der Stationen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/openingDate","label":"Eröffnungsdatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/openingYear","label":"Eröffnungsjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/occupation","label":"Besetzung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/assetUnderManagement","label":"verwaltetes Vermögen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/averageSpeed","label":"Durchschnittsgeschwindigkeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/topSpeed","label":"Höchstgeschwindigkeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/railGauge","label":"Schienenlehre"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/voltageOfElectrification","label":"Elektrifizierungsspannung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/founder","label":"Gründer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/birthDate","label":"Geburtstag"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/birthYear","label":"Geburtsjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/leaderFunction","label":"LeaderFunktion"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/spouse","label":"Ehepartner"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/slogan","label":"Slogan"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/firstAirDate","label":"erstes Sendetermin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/motto","label":"Motto"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/language","label":"Sprache"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/tradingName","label":"Handelsname"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/production","label":"Produktion"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/circulation","label":"Verkehr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/format","label":"Format"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/chiefEditor","label":"Chefredakteur"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/budget","label":"Budget"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/leader","label":"Führer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/jurisdiction","label":"Zuständigkeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/lccnId","label":"LCCN Id"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/address","label":"Adresse"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/city","label":"Stadt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/foundationPlace","label":"Gründungsort"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/formationYear","label":"Gründungsjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/parentOrganisation","label":"übergeordnete Organisation"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfStudents","label":"Anzahl der Studenten"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/state","label":"Zustand"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/officialSchoolColour","label":"offizielle Schulfarbe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/affiliation","label":"Zugehörigkeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/province","label":"Provinz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfVolunteers","label":"Anzahl der Freiwilligen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/startDate","label":"Anfangsdatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/distanceToCharingCross","label":"Abstand zum Ladekreuz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/gridReference","label":"Gitter Referenz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/populationTotal","label":"Gesamtbevölkerung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/postalCode","label":"Postleitzahl"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/borough","label":"Bezirk"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/soundRecording","label":"Tonaufnahme"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/ceo","label":"Geschäftsführer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/publisher","label":"Herausgeber"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/writer","label":"Schriftsteller"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/seatingCapacity","label":"Sitzplatzkapazität"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wikiPageDisambiguates","label":"Wikipedia disambiguiert"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/activeYearsEndYear","label":"aktive Jahre Ende Jahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/activeYearsStartYear","label":"aktive Jahre beginnen Jahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/alias","label":"alias"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/endDate","label":"Endtermin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/broadcastArea","label":"Sendebereich"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/knownFor","label":"bekannt für"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/nationality","label":"Staatsangehörigkeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/stateOfOrigin","label":"Herkunftsland"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/viafId","label":"VIAF Id"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/almaMater","label":"Alma Mater"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/alternativeName","label":"alternativer Name"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/architect","label":"Architekt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/map","label":"Karte"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/academicDiscipline","label":"akademische Disziplin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/institution","label":"Institution"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/doctoralAdvisor","label":"Doktorvater"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/status","label":"Status"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/runtime","label":"Laufzeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/author","label":"Autor"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/producer","label":"Produzent"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/productionCompany","label":"Produktionsfirma"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/starring","label":"mit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Work/runtime","label":"Laufzeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/birthPlace","label":"Geburtsort"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/party","label":"Party"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/termPeriod","label":"Laufzeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/demolitionDate","label":"Abbruchdatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/electionDateLeader","label":"Wahlterminführer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/lastElectionDate","label":"letzter Wahltermin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/legislativePeriodName","label":"Name der Legislaturperiode"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/politicalPartyInLegislature","label":"politische Partei in der Legislative"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/politicalPartyOfLeader","label":"politische Partei des Führers"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/buildingStartDate","label":"Baubeginn"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/birthName","label":"Geburtsname"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/imdbId","label":"IMDB-ID"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/latestReleaseVersion","label":"neueste Release-Version"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/releaseDate","label":"Veröffentlichungsdatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/computingPlatform","label":"Computerplattform"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/developer","label":"Entwickler"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/operatingSystem","label":"Betriebssystem"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/license","label":"Lizenz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/pictureFormat","label":"Bildformat"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/area","label":"Fläche"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/area","label":"Ebene"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/area","label":"Fläche"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/nrhpReferenceNumber","label":"NRHP-Referenznummer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/yearOfConstruction","label":"Baujahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/yearOfConstruction","label":"Baujahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/yearOfConstruction","label":"Herstellungsjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/architecturalStyle","label":"architektonischer Stil"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/networth","label":"networth"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/education","label":"Bildung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfStaff","label":"Anzahl der Mitarbeiter"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/callSign","label":"Rufzeichen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/childOrganisation","label":"Kinderorganisation"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/buildingEndDate","label":"Gebäudeenddatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/commander","label":"Kommandant"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/digitalChannel","label":"digitaler Kanal"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/employer","label":"Arbeitgeber"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/abbreviation","label":"Abkürzung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/membership","label":"Mitgliedschaft"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/child","label":"Kind"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/hometown","label":"Heimatort"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/commandStructure","label":"Befehlsstruktur"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/garrison","label":"Garnison"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/isoCodeRegion","label":"ISO-Regionalcode"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/politicalLeader","label":"politischer Führer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/currentlyUsedFor","label":"derzeit verwendet für"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/deathPlace","label":"Todesort"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/deathPlace","label":"Ort des Ablebens"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/deathPlace","label":"Todesort"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/deathPlace","label":"Sterbeort"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/deathDate","label":"Todesdatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/deathYear","label":"Todesjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/restingPlace","label":"Ruheplatz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/title","label":"Titel"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/diocese","label":"Diözese"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/editor","label":"Editor"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/compressionRatio","label":"Kompressionsrate"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/cylinderBore","label":"Zylinderbohrung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/pistonStroke","label":"Kolbenhub"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/torqueOutput","label":"Drehmomentabgabe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/valvetrain","label":"Ventiltrieb"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/configuration","label":"Aufbau"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/displacement","label":"Verschiebung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/powerOutput","label":"Ausgangsleistung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/productionEndYear","label":"Produktionsende Jahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/productionStartYear","label":"Produktionsstartjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/manufacturer","label":"Hersteller"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/fuelSystem","label":"Kraftstoffsystem"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/blockAlloy","label":"Blocklegierung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/coolingSystem","label":"Kühlsystem"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/headAlloy","label":"Kopflegierung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Engine/cylinderBore","label":"Zylinderbohrung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Engine/displacement","label":"Verschiebung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Engine/pistonStroke","label":"Kolbenhub"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Engine/powerOutput","label":"Leistung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Engine/torqueOutput","label":"Drehmomentabgabe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/assembly","label":"Versammlung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/cost","label":"Kosten"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/tenant","label":"Mieter"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/class","label":"Klasse"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/layout","label":"Layout"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/relatedMeanOfTransportation","label":"verwandtes Transportmittel"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/lastAirDate","label":"letztes Sendedatum"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/broadcastNetwork","label":"Rundfunknetz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/classification","label":"Einstufung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/creator","label":"Schöpfer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/parent","label":"Elternteil"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/residence","label":"Residenz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/portrayer","label":"Schilderer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/firstAppearance","label":"erster Eindruck"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/height","label":"Höhe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Person/height","label":"Höhe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/award","label":"vergeben"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/board","label":"Tafel"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/subdivision","label":"Unterteilung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/background","label":"Hintergrund"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/citizenship","label":"Staatsbürgerschaft"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/designer","label":"Designer"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/recordLabel","label":"Plattenlabel"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/mainOrgan","label":"Hauptorgel"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/mergedWith","label":"fusioniert mit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/director","label":"Regisseur"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/director","label":"künstlerischer Leiter"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/director","label":"Regisseur"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/director","label":"Spielleiter"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/weight","label":"Gewicht"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Engine/weight","label":"Gewicht"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/depictionDescription","label":"Darstellungsbeschreibung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/discipline","label":"Disziplin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/discipline","label":"Disziplin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/discipline","label":"Selbstbeherrschung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/discipline","label":"Selbstdisziplin"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfEpisodes","label":"Anzahl der Folgen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfSeasons","label":"Anzahl der Jahreszeiten"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/composer","label":"Komponist"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/executiveProducer","label":"Ausführender Produzent"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/person","label":"Person"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/artist","label":"Künstler"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/previousWork","label":"vorherige Arbeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/subsequentWork","label":"nachfolgende Arbeit"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/bodyStyle","label":"Körperstil"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/currentProduction","label":"aktuelle Produktion"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/distributor","label":"Verteiler"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/musicComposer","label":"Musik Komponist"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/analogChannel","label":"analoger Kanal"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/callsignMeaning","label":"Rufzeichen Bedeutung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/sisterStation","label":"Schwesterstation"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfVisitors","label":"Besucherzahl"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/position","label":"Position"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/team","label":"Mannschaft"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/careerStation","label":"Karrierestation"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/imageSize","label":"Bildgröße"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/cpu","label":"Zentralprozessor"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/areaCode","label":"Vorwahl"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/personFunction","label":"Personenfunktion"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/bedCount","label":"Bettanzahl"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/structuralSystem","label":"strukturelles System"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/academicAdvisor","label":"akademischer Berater"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/doctoralStudent","label":"Doktorand"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/numberOfMembers","label":"Anzahl der Mitglieder"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/formerBroadcastNetwork","label":"ehemaliges Rundfunknetz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/length","label":"Länge"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/modelEndYear","label":"Modell Ende Jahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/modelStartYear","label":"Modellstartjahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/transmission","label":"Übertragung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/wheelbase","label":"Radstand"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/width","label":"Breite"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/designCompany","label":"Designerfirma"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/engine","label":"Motor"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/engine","label":"Aggregat"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/engine","label":"Antrieb"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/engine","label":"Maschine"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/engine","label":"Motor"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/engine","label":"Triebwerk"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/engine","label":"Murl"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/Automobile/wheelbase","label":"Radstand"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Höhe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Gipfel"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Glanzleistung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Glanzlicht"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Glanzpunkt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"großer Augenblick"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"großer Moment"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Highlight"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Höhe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Höhepunkt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Krönung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Spitze"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Spitzenleistung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/height","label":"Sternstunde"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/length","label":"Länge"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/weight","label":"Gewicht"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/MeanOfTransportation/width","label":"Breite"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/frazioni","label":"Fraktionen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/areaTotal","label":"Gesamtfläche"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/elevation","label":"Höhe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/populationAsOf","label":"Bevölkerung ab"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/region","label":"Region"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/saint","label":"Heilige"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/PopulatedPlace/areaTotal","label":"Gesamtfläche"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/president","label":"Präsident"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/mouthElevation","label":"Mundhöhe"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/mouthMountain","label":"Mund Berg"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/mouthPlace","label":"Mundplatz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/riverMouth","label":"Flussmündung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/club","label":"Verein"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/year","label":"Jahr"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/formerChannel","label":"ehemaliger Kanal"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/virtualChannel","label":"virtueller Kanal"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/namedAfter","label":"benannt nach"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/facilityId","label":"Einrichtungs-ID"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/issn","label":"issn"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/logo","label":"Logo"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/relative","label":"relativ"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/origin","label":"Ursprung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/areaLand","label":"Flächenland"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/areaWater","label":"Flächenwasser"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/populationDensity","label":"Bevölkerungsdichte"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/utcOffset","label":"UTC-Offset"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/timeZone","label":"Zeitzone"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/PopulatedPlace/area","label":"Fläche"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/PopulatedPlace/populationDensity","label":"Bevölkerungsdichte"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/automobilePlatform","label":"Automobilplattform"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/oilSystem","label":"Ölsystem"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/lineLength","label":"Linienlänge"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Unternehmen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Projekt"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Streben"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Unternehmen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Unternehmung"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Vorhaben"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Ansinnen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/company","label":"Unterfangen"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/network","label":"Netzwerk"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/network","label":"Netz"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/network","label":"Netzwerk"}}
+{"_source":{"uri":"http://dbpedia.org/ontology/builder","label":"Baumeister"}}

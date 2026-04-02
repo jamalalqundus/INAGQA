@@ -1,0 +1,26 @@
+<section class="search-section">
+        <div fxLayout="row" fxLayout.xs="column"  fxFlexFill fxLayoutAlign="center center">
+                <div fxFlex.xs="100" fxFlex.sm="100" fxFlex="60">
+                        <h1>CSI Wissensgraph Frage-Antwort-System</h1>
+                        <mat-slide-toggle class="generator-toggle" [(ngModel)]="generatorMode">Text Generator</mat-slide-toggle>
+                        <div class="search-field" fxLayoutAlign="center center"> 
+                                <a style="color: white;cursor: pointer;"(click)="submitQuery(queryCtrl.value)"  ><mat-icon class="search-icon" aria-hidden="false" aria-label="Example search icon">search</mat-icon></a>
+                                <mat-form-field class="search-mat-field">
+                                        <input matInput placeholder="" (keyup.enter)="submitQuery(queryCtrl.value)" [matAutocomplete]="auto" [formControl]="queryCtrl">
+                                        <mat-autocomplete #auto="matAutocomplete">
+                                        <ng-container *ngIf="!isLoading">
+                                                <mat-option *ngFor="let item of suggestions" [value]="item.label">
+                                                <span>{{item.label}}</span>
+                                                </mat-option>
+                                        </ng-container>
+                                </mat-autocomplete>
+                                </mat-form-field>                                    
+                        </div>
+                </div>
+        </div>
+</section>
+<div class="suggest-questions">
+        <h2 class="question" @items (click)="submitQuery(question)" *ngFor="let question of questions">„{{question}}“</h2>
+</div>
+              
+     

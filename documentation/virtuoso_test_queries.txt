@@ -1,0 +1,166 @@
+##########################################################################################
+Select Query:
+##########################################################################################
+
+PREFIX dbo: <http://dbpedia.org/ontology/>       
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>    
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/spec/>
+PREFIX xsd: <http://www.w3.org/TR/swbp-xsch-datatypes/>
+PREFIX db-datatypes: <http://dbpedia.org/datatype/>       
+			
+			SELECT DISTINCT
+			?iri as ?entity
+			(str(?lbl) as ?title)
+			(str(?description) as ?description)
+			?assets
+			?equity
+			?revenue
+			?netIncome
+			MAX(?logo) as ?thumbnail
+			(GROUP_CONCAT(distinct ?ceo_entity; separator=", ") as ?keyPerson)
+			(GROUP_CONCAT(distinct ?foundLoc;separator=", ") as ?foundationPlace)
+			(GROUP_CONCAT(distinct ?founder; separator=", ") as ?foundedBy)
+			(GROUP_CONCAT(distinct ?product; separator=", ") as ?product)
+			(GROUP_CONCAT(distinct ?industry; separator=", ") as ?industry)
+			(GROUP_CONCAT(distinct ?location; separator=", ") as ?locationCity)
+			(COUNT(?property) as ?propertyCount)
+			WHERE {
+			  ?iri a dbo:Company ;
+			       dbo:abstract ?description ;
+			       rdfs:label ?lbl .
+			  ?lbl bif:contains "adidas"@en  .
+			  FILTER( langMatches(lang(?description),"de") )
+			  FILTER( langMatches(lang(?lbl),"de") )
+
+			  OPTIONAL {?iri dbo:assets ?assets}
+			  OPTIONAL {?iri dbo:equity ?equity}
+			  OPTIONAL {?iri dbo:revenue ?revenue}
+			  OPTIONAL {?iri dbo:netIncome ?netIncome}
+			  OPTIONAL {?iri foaf:depiction|dbo:thumbnail ?logo}
+			  OPTIONAL {?iri dbo:foundationPlace/foaf:name ?foundLoc}
+			  OPTIONAL {?iri dbo:foundedBy/foaf:name ?founder}
+			  OPTIONAL {?iri dbo:keyPerson/foaf:name ?ceo_entity}
+			  OPTIONAL {?iri dbo:industry/rdfs:label ?industry
+			  filter langMatches(lang(?industry),"de")}
+			  OPTIONAL {?iri dbo:product/rdfs:label ?product
+			  filter langMatches(lang(?product),"de")}
+			  OPTIONAL {?iri dbo:locationCity/rdfs:label ?location
+			  filter langMatches(lang(?location),"de")}
+			  OPTIONAL {
+			    VALUES ?p { dbo:assets dbo:equity foaf:depiction dbo:thumbnail dbo:foundationPlace dbo:keyPerson dbo:revenue dbo:netIncome dbo:industry dbo:product dbo:location}
+			    ?iri ?p ?property .
+			  }
+			 
+			}
+			ORDER BY DESC (?propertyCount)
+
+
+##########################################################################################
+Select only iri and title
+##########################################################################################
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>      
+PREFIX dbo: <http://dbpedia.org/ontology/>       
+
+SELECT DISTINCT
+?iri
+(str(?lbl) as ?Titel)
+?assets
+WHERE {
+?iri a dbo:Company ;
+	rdfs:label ?lbl .
+?lbl bif:contains "adidas"@en  .
+FILTER( langMatches(lang(?lbl),"de") )
+
+?iri ?p ?property .
+}
+
+
+##########################################################################################
+Select all triples
+##########################################################################################
+
+SELECT * WHERE { ?s ?p ?o . }
+
+
+##########################################################################################
+Insert Adidas example
+##########################################################################################
+
+
+PREFIX dbo: <http://dbpedia.org/ontology/>       
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>    
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/spec/>
+PREFIX xsd: <http://www.w3.org/TR/swbp-xsch-datatypes/>
+PREFIX db-datatypes: <http://dbpedia.org/datatype/>       
+
+INSERT DATA
+{
+	<Adolf_Dassler> foaf:name "Adolf Dassler" . 
+	<unbekannt> foaf:name "Unbekannt" .
+	<Kasper_Rorsted> foaf:name "Kasper Rorsted" . 
+	<fashion> rdfs:label "Fashion"@de . 
+	<sportsachen> rdfs:label "Sportsachen"@de . 
+	<herzogenaurach> rdfs:label "Herzogenaurach"@de . 
+
+    <http://dbpedia.org/resource/Adidas> rdfs:label "Adidas"@en ;
+	rdfs:label "Adidas"@de ;
+	rdf:type dbo:Company ;
+	dbo:abstract "Beispielbeschreibung von Adidas"@de ;
+	dbo:assets "1.159E10"^^db-datatypes:euro ;
+	dbo:equity "5.49E9"^^db-datatypes:euro ;
+	dbo:revenue "1.449E10"^^db-datatypes:euro ;
+	dbo:netIncome "8.0E8"^^db-datatypes:euro ;
+	dbo:thumbnail <https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/300px-Adidas_Logo.svg.png> ;
+	dbo:foundationPlace <unbekannt> ;
+	dbo:foundedBy <Adolf_Dassler> ;
+	dbo:keyPerson <Kasper_Rorsted> ;
+	dbo:industry <fashion> ;
+	dbo:product <sportsachen> ;
+	dbo:locationCity <herzogenaurach> .
+}
+
+
+##########################################################################################
+Insert general example
+##########################################################################################
+
+
+PREFIX dbo: <http://dbpedia.org/ontology/>       
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>    
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/spec/>
+PREFIX xsd: <http://www.w3.org/TR/swbp-xsch-datatypes/>
+PREFIX db-datatypes: <http://dbpedia.org/datatype/>       
+
+INSERT DATA
+{
+	<Adolf_Dassler> foaf:name "Adolf Dassler" . 
+	<unbekannt> foaf:name "Unbekannt" .
+	<Kasper_Rorsted> foaf:name "Kasper Rorsted" . 
+	<fashion> rdfs:label "Fashion"@de . 
+	<sportsachen> rdfs:label "Sportsachen"@de . 
+	<herzogenaurach> rdfs:label "Herzogenaurach"@de . 
+
+    <http://dbpedia.org/resource/Adidas> rdfs:label "Adidas"@en ;
+	rdfs:label "Adidas"@de ;
+	rdf:type dbo:Company ;
+	dbo:abstract "Beispielbeschreibung von Adidas"@de ;
+	dbo:assets "1.159E10"^^db-datatypes:euro ;
+	dbo:equity "5.49E9"^^db-datatypes:euro ;
+	dbo:revenue "1.449E10"^^db-datatypes:euro ;
+	dbo:netIncome "8.0E8"^^db-datatypes:euro ;
+	dbo:thumbnail <https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/300px-Adidas_Logo.svg.png> ;
+	dbo:foundationPlace <unbekannt> ;
+	dbo:foundedBy <Adolf_Dassler> ;
+	dbo:keyPerson <Kasper_Rorsted> ;
+	dbo:industry <fashion> ;
+	dbo:product <sportsachen> ;
+	dbo:locationCity <herzogenaurach> .
+}
+
+
+
+	

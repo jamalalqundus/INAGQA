@@ -1,0 +1,541 @@
+openapi: "3.0.0"
+info:
+  description: "This is the NLP endpoint specification. There is only one endpoint that build a SPARQL query from a user question amd returns API4KB Response"
+  version: "0.1"
+  title: "NLP API"
+  #termsOfService: ""
+  contact:
+    name: Le Duyen Sandra Vu
+    email: "leduvu@gmail.com"
+
+servers:
+  - url: "{protocol}://localhost:8070/api"
+    variables:
+      protocol:
+        enum:
+          - http
+          - https
+        default: http
+tags:
+  - name: "Build Query"
+    description: "Handle incoming questions from the graph microservice."
+  - name: "Autosuggest"
+    description: "Those are all the functions available to supoort an autosuggest service."
+  - name: "Existing Attributes"
+    description: "Those are all the functions to get all existing encoded attributes."
+  - name: "Perform query"
+    description: "Those are all the functions to perform a query on knowledge graph databases."
+  - name: "Store Data"
+    description: "Those are all the functions to store new data to a local knowledge graph database."
+    
+paths:
+  /query:
+    get:
+      summary: "Gets Frontent Query, Generates SPARQL and send back response"
+      tags:
+        - question
+      operationId: backend_application.main.query
+      parameters:
+        - name: query
+          in: query
+          schema:
+            type: string
+          required: true
+        - name: generatorMode
+          in: query
+          schema:
+            type: boolean
+          required: true
+      responses:
+        200:
+          description: "Ok"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/QueryResult"
+          description: OK
+        400:
+          description: "Invalid provider or format"
+        401:
+          description: "No courses found"
+        500:
+          description: "Internal Server Error"
+          
+  /insert:
+    put:
+      tags:
+        - "Store Data"
+      summary: "Insert triple into local knowledge graph"
+      operationId: backend_application.main.insert
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                entity:
+                  type: string
+                props:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      prop:
+                        type: string
+                      value:
+                        type: string
+            example: {
+                      "flag": "card",
+                      "entity": "Q1234",
+                      "content":
+                        {
+                          "title": "Leonardo DiCaprio",
+                          "image": "href",
+                          "properties":
+                            [
+                              { "property": "age", "type": "integer", "value": "30" },
+                              {
+                                "property": "gender",
+                                "type": "string",
+                                "value": "diverse",
+                              },
+                            ],
+                        },
+                      }
+      responses:
+        200:
+          description: "Ok"
+        400:
+          description: "Bad request"
+        404:
+          description: "Not found"
+        405:
+          description: "Method not allowed"
+        406:
+          description: "Not acceptable"
+        408:
+          description: "Request timeout"
+        418:
+          description: "I'm a teapot"
+        500:
+          description: "Internal Server Error"
+
+  /suggestQuestion:
+    get:
+      tags:
+        - "Suggest Question"
+      summary: "Endpoint for FRONTEND - suggest Q&A questions"
+      operationId: backend_application.main.suggestQuestion
+      parameters:
+        - name: count
+          in: query
+          schema:
+            type: integer
+          required: false
+      responses:
+        200:
+          description: "Ok"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Attribute"
+        400:
+          description: "Bad request"
+        404:
+          description: "Not found"
+        405:
+          description: "Method not allowed"
+        406:
+          description: "Not acceptable"
+        408:
+          description: "Request timeout"
+        418:
+          description: "I'm a teapot"
+        500:
+          description: "Internal Server Error"
+
+  /autosuggest:
+    get:
+      tags:
+        - "Autosuggest"
+      summary: "Endpoint for FRONTEND - send substring to receive suggestions provided by wikidata API"
+      operationId: backend_application.main.autosuggest
+      parameters:
+        - name: query
+          in: query
+          schema:
+            type: string
+          required: true
+      responses:
+        200:
+          description: "Ok"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Attribute"
+        400:
+          description: "Bad request"
+        404:
+          description: "Not found"
+        405:
+          description: "Method not allowed"
+        406:
+          description: "Not acceptable"
+        408:
+          description: "Request timeout"
+        418:
+          description: "I'm a teapot"
+        500:
+          description: "Internal Server Error"
+
+
+  /suggestAnswer:
+    get:
+      tags:
+        - "Suggest Answer"
+      summary: "Stream endpoint for FRONTEND - suggest answers for empty answers from api4kb"
+      operationId: backend_application.main.suggestAnswer
+      responses:
+        200:
+          description: "Ok"
+          content:
+            text/event-stream:
+              schema:
+                $ref: "#/components/schemas/Suggestion"
+        400:
+          description: "Bad request"
+        404:
+          description: "Not found"
+        405:
+          description: "Method not allowed"
+        406:
+          description: "Not acceptable"
+        408:
+          description: "Request timeout"
+        418:
+          description: "I'm a teapot"
+        500:
+          description: "Internal Server Error"
+
+          
+  /getText:
+    get:
+      tags:
+        - "Perform query"
+      summary: "Endpoint for FRONTEND - send User text as .txt file"
+      operationId: "backend_application.main.getText"
+      parameters:
+        - name: text
+          in: query
+          schema:
+            type: string
+          required: true
+      responses:
+        200:
+          description: "Ok"
+          content:
+            text/plain:
+              schema:
+                $ref: "#/components/schemas/TextFile"
+        400:
+          description: "Bad request"
+        404:
+          description: "Not found"
+        405:
+          description: "Method not allowed"
+        406:
+          description: "Not acceptable"
+        408:
+          description: "Request timeout"
+        418:
+          description: "I'm a teapot"
+        500:
+          description: "Internal Server Error"
+      
+
+
+components:
+  schemas:
+    Attribute:
+      type: object
+      properties:
+        entity:
+          type: string
+        label:
+          type: string
+      example: { "entity": "Q1234", "label": "beer" }
+
+    Triple:
+      type: object
+      properties:
+        subject:
+          type: string
+        predicate:
+          type: string
+        object:
+          type: string
+          
+    QueryResult:
+      type: object
+      example: { "Select Schema to watch examples!" }
+      oneOf:
+        - $ref: "#/components/schemas/Table"
+        - $ref: "#/components/schemas/Map"
+        - $ref: "#/components/schemas/Graph"
+        - $ref: "#/components/schemas/Card"
+
+    Map:
+      type: object
+      properties:
+        flag:
+          type: string
+        content:
+          type: object
+          properties:
+            entity:
+              type: string
+            locationlabel:
+              type: string
+            long:
+              type: string
+            lat:
+              type: string
+      example:
+        # {
+        #   "flag": "map",
+        #   "content":
+        #     { 
+        #       "entity":"http://www.wikidata.org/entity/Q23436",
+        #       "locationlabel":"Edinburgh",
+        #       "lat":"55.95",
+        #       "long":"-3.1988888888889"
+        #     },
+        #     { 
+        #       "entity":"http://www.wikidata.org/entity/Q4093",
+        #       "locationlabel":"Glasgow",
+        #       "lat":"55.86",
+        #       "long":"-4.25"
+        #     }
+        # }
+
+    Table:
+      type: object
+      properties:
+        flag:
+          type: string
+        content:
+          type: object
+          properties:
+            headers:
+              type: array
+              items:
+                type: object
+                properties:
+                  type:
+                    type: string
+                  label:
+                    type: string
+            rows:
+              type: array
+              items:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    type:
+                      type: string
+                    value:
+                      type: string
+                    entity:
+                      type: string
+      example:
+        {
+          "flag": "table",
+          "content":
+            {
+              "headers":
+                [
+                  { "type": "string", "label": "blablabla" },
+                  { "type": "string", "label": "blablabla2" },
+                ],
+              "rows":
+                [
+                  {
+                    "blablabla":
+                      {
+                        "type": "string",
+                        "value": "moinmoin",
+                        "entity": "Q1234",
+                      },
+                    "blablabla2":
+                      {
+                        "type": "string",
+                        "label": "oioioi",
+                        "entity": "Q1234",
+                      },
+                  },
+                  {
+                    "blablabla":
+                      {
+                        "type": "string",
+                        "value": "moinmoin2",
+                        "entity": "Q1234",
+                      },
+                    "blablabla2":
+                      {
+                        "type": "string",
+                        "label": "oioioi2",
+                        "entity": "Q1234",
+                      },
+                  },
+                ],
+            },
+        }
+
+    Graph:
+      type: object
+      properties:
+        flag:
+          type: string
+        content:
+          type: object
+          properties:
+            root:
+              type: array
+              items:
+                type: object
+                properties:
+                  type:
+                    type: string
+                  value:
+                    type: string
+                  entity:
+                    type: string
+            knots:
+              type: array
+              items:
+                type: object
+                properties:
+                  type:
+                    type: string
+                  value:
+                    type: string
+                  entity:
+                    type: string
+      example:
+        {
+          "flag": "graph",
+          "content":
+            {
+              "root":
+                {
+                  "type": "string",
+                  "value": "Leonardo DiCaprio",
+                  "entity": "Q1234",
+                },
+              "knots":
+                [
+                  {
+                    "type": "string",
+                    "value": "Mother DiCaprio",
+                    "entity": "Q1234",
+                  },
+                  {
+                    "type": "string",
+                    "value": "Woman DiCaprio",
+                    "entity": "Q1234",
+                  },
+                ],
+            },
+        }
+
+    Card:
+      type: object
+      properties:
+        flag:
+          type: string
+        title:
+          type: string
+        image:
+          type: string
+        entity:
+          type: string
+        properties:
+          type: array
+          items:
+            type: object
+            properties:
+              property:
+                type: string
+              type:
+                type: string
+              value:
+                type: string
+      example:
+        {
+          "flag": "card",
+          "entity": "Q1234",
+          "content":
+            {
+              "title": "Leonardo DiCaprio",
+              "image": "href",
+              "properties":
+                [
+                  { "property": "age", "type": "integer", "value": "30" },
+                  {
+                    "property": "gender",
+                    "type": "string",
+                    "value": "diverse",
+                  },
+                ],
+            },
+        }
+
+    Suggestion:
+      type: array
+      items:
+        type: object
+        properties:
+          query:
+            type: string
+          properties:
+            type: array
+            items:
+              type: object
+              properties:
+                property:
+                  type: string
+                type:
+                  type: string
+                value:
+                  type: string
+      example:
+        [
+          {
+              "query":"Informationen über Fraunhofer FOKUS",
+              "properties":[
+                  {
+                      "property": "Unternehmensname", 
+                      "type": "literal", 
+                      "value": "Fraunhofer Institute for Open Communication Systems", 
+                  },
+                  {
+                      "property": "Wikidata url", 
+                      "type": "url", 
+                      "value": "www.wikidata.org/wiki/Q1452018", 
+                  },
+                  {
+                      "property": "Unternehmensauftritt", 
+                      "type": "url", 
+                      "value": "http://www.fokus.fraunhofer.de/en", 
+                  }
+              ]
+          }
+        ]
+
+    TextFile:
+      type: string
+      example: "I'm a text file."
