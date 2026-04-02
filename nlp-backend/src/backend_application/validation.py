@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     validation.py                                                    *#
-#* Author:   ssa                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Validate user modifications and input and transform the company card      *#

@@ -1,6 +1,5 @@
 /**
  * Name:     suggestions.component.ts
- * Author:   ssa
  * 
  * Description: This component is the side panel with the suggestions from wikidata, 
  *  if no relevant information is available in API4KB. 

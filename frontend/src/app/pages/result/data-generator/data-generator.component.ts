@@ -1,6 +1,5 @@
 /**
  * Name:     data-generator.component.ts
- * Author:   ssa
  * 
  * Description: This component displays text generated from multiple questions.
  * 

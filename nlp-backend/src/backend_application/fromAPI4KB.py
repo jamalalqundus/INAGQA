@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     fromCSV.py                                                       *#
-#* Author:   lvu                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #* 	A question is analyzed. It is either answered from the local CSV or       *#

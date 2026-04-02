@@ -1,6 +1,5 @@
 /**
  * Name:     result.component.ts
- * Author:   ssa
  * 
  * Description: The result component is the most important component next to the home page. 
  *  It initiates the request with the backend and transfers the data to the corresponding 

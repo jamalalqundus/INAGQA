@@ -1,6 +1,5 @@
 /**
  * Name:     data-table.component.ts
- * Author:   ssa
  * 
  * Description: Generic table with relevant information is rendered depending on the data format.
  * 

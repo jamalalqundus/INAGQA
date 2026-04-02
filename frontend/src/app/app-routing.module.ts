@@ -1,6 +1,5 @@
 /**
  * Name:     app-routing.module.ts
- * Author:   ssa
  * 
  * Description: The routing module assigns the corresponding component 
  *  to be rendered to the browser url.

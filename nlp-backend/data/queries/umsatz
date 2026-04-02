@@ -1,7 +1,7 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/KnowledgeGraph/2021/6/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/KnowledgeGraph/2021/6/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -22,7 +22,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 
 
             
-            FROM <http://fokus.fraunhofer.de/KnowledgeGraph/2021/6/cisqa20/>
+            FROM <http://localhost:8890/KnowledgeGraph/2021/6/cisqa20/>
 		    WHERE {
 			    ?iri a cisqa:dgap_message .             # pruefen ob es eine Nachricht ist
 

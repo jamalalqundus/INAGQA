@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     suggestQuestion.py                                               *#
-#* Author:   ssa                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Suggest possible questions to the user on the landing page animation      *#

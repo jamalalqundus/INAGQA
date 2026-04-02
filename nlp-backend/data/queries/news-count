@@ -1,6 +1,6 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -9,7 +9,7 @@ PREFIX dbp:  <http://dbpedia.org/property/>
             (count(?news_header) as ?news_count)
 	    ?news_date
 
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a cisqa:dgap_message ;

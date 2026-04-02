@@ -1,6 +1,5 @@
 /**
  * Name:     error-display.component.ts
- * Author:   ssa
  * 
  * Description: If no result is given, this component displays the error message.
  * 

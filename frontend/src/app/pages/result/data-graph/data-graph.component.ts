@@ -1,6 +1,5 @@
 /**
  * Name:     data-graph.component.ts
- * Author:   FU students
  * 
  * Description: This component is currently not used (legacy from cisqa19).
  * 

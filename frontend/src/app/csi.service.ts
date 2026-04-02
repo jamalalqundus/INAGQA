@@ -1,6 +1,5 @@
 /**
  * Name:     csi.service.ts
- * Author:   FU students & ssa
  * 
  * Description: Service handling API calls with the backend.
  * 

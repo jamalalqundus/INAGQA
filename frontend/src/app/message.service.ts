@@ -1,6 +1,5 @@
 /**
  * Name:     message.service.ts
- * Author:   FU students
  * 
  * Description: Logging http operations that failed.
  * 

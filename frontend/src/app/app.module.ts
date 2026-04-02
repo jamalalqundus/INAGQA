@@ -1,6 +1,5 @@
 /**
  * Name:     app.module.ts
- * Author:   ssa
  * 
  * Description: Angular modules are containers for a cohesive block 
  *  of code dedicated to an application domain or a closely related set of capabilities.

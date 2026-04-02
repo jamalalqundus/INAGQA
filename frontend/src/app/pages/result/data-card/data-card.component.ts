@@ -1,6 +1,5 @@
 /**
  * Name:     data-card.component.ts
- * Author:   ssa
  * 
  * Description: This component displays basic information about a company (data from DBpedia).
  * 

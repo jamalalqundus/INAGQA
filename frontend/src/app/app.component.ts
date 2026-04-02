@@ -1,6 +1,5 @@
 /**
  * Name:     app.component.ts
- * Author:   ssa
  * 
  * Description: Root component containing all other components.
  * 

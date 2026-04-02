@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     spellCheck.py                                                    *#
-#* Author:   lvu                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Spell checking user entered input.                                        *#

@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     suggestAnswer.py                                                 *#
-#* Author:   ssa                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Implements the server-sent events concept for the suggestions in the      *#

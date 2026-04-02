@@ -1,8 +1,3 @@
-"""
-
-
-@author: Sakor
-"""
 from elasticsearch import Elasticsearch
 import json
 from multiprocessing.pool import ThreadPool

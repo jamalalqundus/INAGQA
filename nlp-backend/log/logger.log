@@ -165,7 +165,7 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -174,7 +174,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -198,7 +198,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -207,7 +207,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -235,7 +235,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -244,7 +244,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -268,7 +268,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -277,7 +277,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -301,7 +301,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -310,7 +310,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -334,7 +334,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -343,7 +343,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -367,7 +367,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -376,7 +376,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -400,7 +400,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -409,7 +409,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -435,7 +435,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -444,7 +444,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -468,7 +468,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -477,7 +477,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -501,7 +501,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -510,7 +510,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -534,7 +534,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -543,7 +543,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -567,7 +567,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -576,7 +576,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -600,7 +600,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -609,7 +609,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -634,7 +634,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -643,7 +643,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -668,7 +668,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -677,7 +677,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -702,7 +702,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -711,7 +711,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -736,7 +736,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -745,7 +745,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -769,7 +769,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -778,7 +778,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -802,7 +802,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -811,7 +811,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -835,7 +835,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -844,7 +844,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -868,7 +868,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -877,7 +877,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -901,7 +901,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -910,7 +910,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -934,7 +934,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -943,7 +943,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -967,7 +967,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -976,7 +976,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1000,7 +1000,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1009,7 +1009,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1033,7 +1033,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1042,7 +1042,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1066,7 +1066,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1075,7 +1075,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1099,7 +1099,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1108,7 +1108,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1132,7 +1132,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1141,7 +1141,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1165,7 +1165,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1174,7 +1174,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1198,7 +1198,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1207,7 +1207,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1231,7 +1231,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1240,7 +1240,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1264,7 +1264,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1273,7 +1273,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?lbl) as ?Titel)
             (str(?streetlbl) as ?Strasse)
             (str(?countrylbl) as ?Land)
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a dbo:Company ;
@@ -1319,7 +1319,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1328,7 +1328,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?news_header) as ?News_Header)
             (str(?news_date) as ?Datum_News)
 
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a cisqa:dgap_message ;
@@ -1349,7 +1349,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -1358,7 +1358,7 @@ PREFIX dbr: <http://dbpedia.org/resource/>
             (str(?news_header) as ?News_Header)
             (str(?news_date) as ?Datum_News)
 
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a cisqa:dgap_message ;
@@ -4074,7 +4074,7 @@ urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object
 2021-05-25 00:52:01,325; [db3f4e53-f057-40c9-9a8f-e2e21ea073f5]; request:Nachrichten zu Nemetschek; spellcheck:; response:api4kb(csv): C-table []
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -4084,7 +4084,7 @@ PREFIX dbp:  <http://dbpedia.org/property/>
             (str(?news_header) as ?News_Header)
             (str(?news_date) as ?Datum_News)
 
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a cisqa:dgap_message ;
@@ -4104,7 +4104,7 @@ PREFIX dbp:  <http://dbpedia.org/property/>
 2021-05-25 00:52:01,351; [db3f4e53-f057-40c9-9a8f-e2e21ea073f5]; request:Nachrichten zu Nemetschek; spellcheck:Nachrichten zu Nemetschek; response:api4kb(csv): C-table []
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX cisqa: <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+PREFIX cisqa: <http://localhost:8890/ontologies/2020/9/cisqa20/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -4114,7 +4114,7 @@ PREFIX dbp:  <http://dbpedia.org/property/>
             (str(?news_header) as ?News_Header)
             (str(?news_date) as ?Datum_News)
 
-             FROM <http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/>
+             FROM <http://localhost:8890/ontologies/2020/9/cisqa20/>
 
       WHERE {
         ?iri a cisqa:dgap_message ;
@@ -7979,11 +7979,11 @@ TypeError: 'NoneType' object is not iterable
 2021-07-28 15:59:10,760; 172.28.0.1 - - [28/Jul/2021 15:59:10] "OPTIONS /api/query?query=NVR-Nachrichten%20zu%20Zalando HTTP/1.1" 200 -
 2021-07-28 15:59:10,764; 172.28.0.1 - - [28/Jul/2021 15:59:10] "OPTIONS /api/query?query=NVR-Nachrichten%20zu%20Zalando HTTP/1.1" 200 -
 2021-07-28 15:59:10,936; [0dfafba7-e197-4cdb-9712-ca27c3d651d7] --------------------------------------------
-2021-07-28 15:59:11,234; [0dfafba7-e197-4cdb-9712-ca27c3d651d7]; request:NVR-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:d4a6413a-3043-4bae-9750-8806dce8e587
+2021-07-28 15:59:11,234; [0dfafba7-e197-4cdb-9712-ca27c3d651d7]; request:NVR-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:d4a6413a-3043-4bae-9750-8806dce8e587
 2021-07-28 15:59:11,239; 172.28.0.1 - - [28/Jul/2021 15:59:11] "[35m[1mGET /api/query?query=NVR-Nachrichten%20zu%20Zalando HTTP/1.1[0m" 500 -
 2021-07-28 15:59:11,409; [e6dcc5f5-20d6-47ca-9994-8221619fe3b3] --------------------------------------------
 2021-07-28 15:59:11,476; 172.28.0.1 - - [28/Jul/2021 15:59:11] "OPTIONS /api/autosuggest?query=Zalando HTTP/1.1" 200 -
-2021-07-28 15:59:11,483; [e6dcc5f5-20d6-47ca-9994-8221619fe3b3]; request:NVR-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:d4a6413a-3043-4bae-9750-8806dce8e587
+2021-07-28 15:59:11,483; [e6dcc5f5-20d6-47ca-9994-8221619fe3b3]; request:NVR-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:d4a6413a-3043-4bae-9750-8806dce8e587
 2021-07-28 15:59:11,487; 172.28.0.1 - - [28/Jul/2021 15:59:11] "[35m[1mGET /api/query?query=NVR-Nachrichten%20zu%20Zalando HTTP/1.1[0m" 500 -
 2021-07-28 15:59:11,489; 172.28.0.1 - - [28/Jul/2021 15:59:11] "OPTIONS /api/autosuggest?query=Zalando HTTP/1.1" 200 -
 2021-07-28 15:59:11,492; 172.28.0.1 - - [28/Jul/2021 15:59:11] "OPTIONS /api/autosuggest?query=Zalando HTTP/1.1" 200 -
@@ -7999,7 +7999,7 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 09:42:01,715; [e933aab5-dd9c-46fd-beda-7a658a893fd2] --------------------------------------------
 2021-08-05 09:42:02,188; 172.28.0.1 - - [05/Aug/2021 09:42:02] "OPTIONS /api/autosuggest?query=Adidas HTTP/1.1" 200 -
 2021-08-05 09:42:02,681; 172.28.0.1 - - [05/Aug/2021 09:42:02] "GET /api/autosuggest?query=nvr HTTP/1.1" 200 -
-2021-08-05 09:42:02,708; [e933aab5-dd9c-46fd-beda-7a658a893fd2]; request:nvr-nachrichten zu Adidas; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 09:42:02,708; [e933aab5-dd9c-46fd-beda-7a658a893fd2]; request:nvr-nachrichten zu Adidas; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 09:42:02,710; 172.28.0.1 - - [05/Aug/2021 09:42:02] "[35m[1mGET /api/query?query=nvr-nachrichten%20zu%20Adidas HTTP/1.1[0m" 500 -
 2021-08-05 09:42:11,093; 172.28.0.1 - - [05/Aug/2021 09:42:11] "GET /api/autosuggest?query=Adidas HTTP/1.1" 200 -
 2021-08-05 10:05:30,478;  * Running on all addresses.
@@ -8045,13 +8045,13 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 10:16:31,998; 172.28.0.1 - - [05/Aug/2021 10:16:31] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:16:32,018; 172.28.0.1 - - [05/Aug/2021 10:16:32] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:16:32,097; [d25fdddd-a763-444b-a100-539d0b338c21] --------------------------------------------
-2021-08-05 10:16:33,870; [d25fdddd-a763-444b-a100-539d0b338c21]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:16:33,870; [d25fdddd-a763-444b-a100-539d0b338c21]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:16:33,874; 172.28.0.1 - - [05/Aug/2021 10:16:33] "[35m[1mGET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1[0m" 500 -
 2021-08-05 10:16:34,641; 172.28.0.1 - - [05/Aug/2021 10:16:34] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:16:34,643; 172.28.0.1 - - [05/Aug/2021 10:16:34] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:16:34,719; 172.28.0.1 - - [05/Aug/2021 10:16:34] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:16:34,741; [e4eeeb04-7207-467d-b5eb-f26ff8d37e0b] --------------------------------------------
-2021-08-05 10:16:34,806; [e4eeeb04-7207-467d-b5eb-f26ff8d37e0b]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:16:34,806; [e4eeeb04-7207-467d-b5eb-f26ff8d37e0b]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:16:34,808; 172.28.0.1 - - [05/Aug/2021 10:16:34] "[35m[1mGET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1[0m" 500 -
 2021-08-05 10:16:45,974; 172.28.0.1 - - [05/Aug/2021 10:16:45] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:16:46,263; 172.28.0.1 - - [05/Aug/2021 10:16:46] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
@@ -8061,7 +8061,7 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 10:18:12,227;  * Running on http://172.28.0.2:8070/ (Press CTRL+C to quit)
 2021-08-05 10:18:26,716; 172.28.0.1 - - [05/Aug/2021 10:18:26] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:18:26,817; [470b4701-e232-456b-85f9-d571699412fd] --------------------------------------------
-2021-08-05 10:18:26,960; [470b4701-e232-456b-85f9-d571699412fd]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:18:26,960; [470b4701-e232-456b-85f9-d571699412fd]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): C-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:18:26,962; 172.28.0.1 - - [05/Aug/2021 10:18:26] "[35m[1mGET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1[0m" 500 -
 2021-08-05 10:18:27,495; 172.28.0.1 - - [05/Aug/2021 10:18:27] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:18:27,497; 172.28.0.1 - - [05/Aug/2021 10:18:27] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
@@ -8076,7 +8076,7 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 10:22:32,435;  * Running on http://172.28.0.2:8070/ (Press CTRL+C to quit)
 2021-08-05 10:22:39,082; 172.28.0.1 - - [05/Aug/2021 10:22:39] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:22:39,228; [0cea9efe-9c93-4f32-b4b8-7c8595ea8d26] --------------------------------------------
-2021-08-05 10:22:39,363; [0cea9efe-9c93-4f32-b4b8-7c8595ea8d26]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:22:39,363; [0cea9efe-9c93-4f32-b4b8-7c8595ea8d26]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:22:39,365; 172.28.0.1 - - [05/Aug/2021 10:22:39] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:22:39,863; 172.28.0.1 - - [05/Aug/2021 10:22:39] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:22:40,106; 172.28.0.1 - - [05/Aug/2021 10:22:40] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
@@ -8109,26 +8109,26 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 10:32:32,638; 172.28.0.1 - - [05/Aug/2021 10:32:32] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:32:32,653; 172.28.0.1 - - [05/Aug/2021 10:32:32] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:32:32,735; [b8c24d5c-2239-4506-a12a-486101d321b8] --------------------------------------------
-2021-08-05 10:32:32,809; [b8c24d5c-2239-4506-a12a-486101d321b8]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:32:32,809; [b8c24d5c-2239-4506-a12a-486101d321b8]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:32:32,814; 172.28.0.1 - - [05/Aug/2021 10:32:32] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:32:32,848; 172.28.0.1 - - [05/Aug/2021 10:32:32] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:32:32,913; [ce731d24-9458-48b1-a25b-16438450d42a] --------------------------------------------
-2021-08-05 10:32:32,978; [ce731d24-9458-48b1-a25b-16438450d42a]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:32:32,978; [ce731d24-9458-48b1-a25b-16438450d42a]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:32:32,981; 172.28.0.1 - - [05/Aug/2021 10:32:32] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:32:33,577; 172.28.0.1 - - [05/Aug/2021 10:32:33] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:32:40,891; 172.28.0.1 - - [05/Aug/2021 10:32:40] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:32:40,979; [5a6750ab-7ce1-4b33-891a-c29affac508c] --------------------------------------------
-2021-08-05 10:32:41,138; [5a6750ab-7ce1-4b33-891a-c29affac508c]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:32:41,138; [5a6750ab-7ce1-4b33-891a-c29affac508c]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:32:41,140; 172.28.0.1 - - [05/Aug/2021 10:32:41] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:36:05,846;  * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 2021-08-05 10:36:05,848;  * Running on http://172.28.0.2:8070/ (Press CTRL+C to quit)
 2021-08-05 10:36:15,175; 172.28.0.1 - - [05/Aug/2021 10:36:15] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:36:15,313; [dd74bdec-e464-40dc-84aa-c4d6d7307403] --------------------------------------------
-2021-08-05 10:36:15,527; [dd74bdec-e464-40dc-84aa-c4d6d7307403]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:36:15,527; [dd74bdec-e464-40dc-84aa-c4d6d7307403]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:36:15,530; 172.28.0.1 - - [05/Aug/2021 10:36:15] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:36:18,853; [2cefd6b7-0bfb-4b75-8c32-bfdf647ddeb3] --------------------------------------------
-2021-08-05 10:36:18,920; [2cefd6b7-0bfb-4b75-8c32-bfdf647ddeb3]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:36:18,920; [2cefd6b7-0bfb-4b75-8c32-bfdf647ddeb3]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:36:18,921; 172.28.0.1 - - [05/Aug/2021 10:36:18] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:36:19,646; 172.28.0.1 - - [05/Aug/2021 10:36:19] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:36:19,908; 172.28.0.1 - - [05/Aug/2021 10:36:19] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
@@ -8139,15 +8139,15 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 10:46:21,441; [34048d1d-1ae9-4704-a7d9-e2205dca9678] --------------------------------------------
 2021-08-05 10:46:22,067; 172.28.0.1 - - [05/Aug/2021 10:46:22] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 10:46:22,359; 172.28.0.1 - - [05/Aug/2021 10:46:22] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
-2021-08-05 10:46:22,595; [34048d1d-1ae9-4704-a7d9-e2205dca9678]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:46:22,595; [34048d1d-1ae9-4704-a7d9-e2205dca9678]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:46:22,597; 172.28.0.1 - - [05/Aug/2021 10:46:22] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:46:53,906; 172.28.0.1 - - [05/Aug/2021 10:46:53] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 10:46:54,000; [d96f0bd8-307c-40e6-87ae-98b65e34f67e] --------------------------------------------
-2021-08-05 10:46:54,140; [d96f0bd8-307c-40e6-87ae-98b65e34f67e]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 10:46:54,140; [d96f0bd8-307c-40e6-87ae-98b65e34f67e]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 10:46:54,143; 172.28.0.1 - - [05/Aug/2021 10:46:54] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:20:03,663; 172.28.0.1 - - [05/Aug/2021 11:20:03] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:20:04,055; [c2592f62-94ec-43e5-88b2-f61ea6c67fe9] --------------------------------------------
-2021-08-05 11:20:05,547; [c2592f62-94ec-43e5-88b2-f61ea6c67fe9]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:20:05,547; [c2592f62-94ec-43e5-88b2-f61ea6c67fe9]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:20:05,549; 172.28.0.1 - - [05/Aug/2021 11:20:05] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:23:01,935;  * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
@@ -8180,25 +8180,25 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 11:23:53,365; [0806797b-c9b0-43bd-8788-32b04f8e3e4f]; request:nachrichten zu zalando se; spellcheck:; response:api4kb(csv): C-table [['2020-10-28 10:20:00', 'Zalando SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution ', 'https://www.dgap.de/dgap/News/pvr/zalando-release-according-article-section-the-wphg-the-german-securities-trading-act-with-the-objective-europewide-distribution/?newsID=1405479'], ['2020-10-28 10:16:00', 'Zalando SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution ', 'https://www.dgap.de/dgap/News/pvr/zalando-release-according-article-section-the-wphg-the-german-securities-trading-act-with-the-objective-europewide-distribution/?newsID=1405478']]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:23:53,396; 172.28.0.1 - - [05/Aug/2021 11:23:53] "GET /api/query?query=nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:23:53,433; 172.28.0.1 - - [05/Aug/2021 11:23:53] "GET /api/query?query=nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
-2021-08-05 11:23:53,435; [378cf8db-19ea-4cb2-a3a4-9c57440ba5c8]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:23:53,435; [378cf8db-19ea-4cb2-a3a4-9c57440ba5c8]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:23:53,452; 172.28.0.1 - - [05/Aug/2021 11:23:53] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
-2021-08-05 11:23:53,482; [06840b09-8c21-4f5a-8e02-84884b15d563]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:23:53,482; [06840b09-8c21-4f5a-8e02-84884b15d563]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:23:53,484; 172.28.0.1 - - [05/Aug/2021 11:23:53] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
-2021-08-05 11:23:53,486; [c33383f6-c21f-4198-97b0-08cb787c9e0b]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:23:53,486; [c33383f6-c21f-4198-97b0-08cb787c9e0b]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:23:53,487; 172.28.0.1 - - [05/Aug/2021 11:23:53] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:24:24,298; 172.28.0.1 - - [05/Aug/2021 11:24:24] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:24:24,299; 172.28.0.1 - - [05/Aug/2021 11:24:24] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:24:24,403; [d27af199-fa74-4a95-93a8-a89c7b104e9a] --------------------------------------------
-2021-08-05 11:24:24,742; [d27af199-fa74-4a95-93a8-a89c7b104e9a]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:24:24,742; [d27af199-fa74-4a95-93a8-a89c7b104e9a]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:24:24,744; 172.28.0.1 - - [05/Aug/2021 11:24:24] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:24:24,840; [6a1e1fc1-e943-4d96-b215-278c2933619d] --------------------------------------------
-2021-08-05 11:24:24,902; [6a1e1fc1-e943-4d96-b215-278c2933619d]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:24:24,902; [6a1e1fc1-e943-4d96-b215-278c2933619d]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:24:24,903; 172.28.0.1 - - [05/Aug/2021 11:24:24] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:24:25,052; 172.28.0.1 - - [05/Aug/2021 11:24:25] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 11:24:25,275; 172.28.0.1 - - [05/Aug/2021 11:24:25] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 11:35:45,853; 172.28.0.1 - - [05/Aug/2021 11:35:45] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:35:46,001; [371a9412-4612-41a8-9197-282b250950af] --------------------------------------------
-2021-08-05 11:35:46,965; [371a9412-4612-41a8-9197-282b250950af]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:35:46,965; [371a9412-4612-41a8-9197-282b250950af]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:35:46,969; 172.28.0.1 - - [05/Aug/2021 11:35:46] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:36:03,005; 172.28.0.1 - - [05/Aug/2021 11:36:03] "OPTIONS /api/query?query=nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:36:03,008; 172.28.0.1 - - [05/Aug/2021 11:36:03] "OPTIONS /api/query?query=nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
@@ -8227,12 +8227,12 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 11:36:46,972; 172.28.0.1 - - [05/Aug/2021 11:36:46] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 11:36:47,201; 172.28.0.1 - - [05/Aug/2021 11:36:47] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 11:36:47,425; 172.28.0.1 - - [05/Aug/2021 11:36:47] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
-2021-08-05 11:36:49,057; [1c977a7b-9c91-4a73-8eef-15ca296b80d9]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
-2021-08-05 11:36:49,058; [9191d34b-94e5-46cf-8303-c15101328406]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:36:49,057; [1c977a7b-9c91-4a73-8eef-15ca296b80d9]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:36:49,058; [9191d34b-94e5-46cf-8303-c15101328406]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:36:49,059; 172.28.0.1 - - [05/Aug/2021 11:36:49] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:36:49,062; 172.28.0.1 - - [05/Aug/2021 11:36:49] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:36:49,186; [868ac0de-3f34-4ba7-b84e-3dd47ea42c4c] --------------------------------------------
-2021-08-05 11:36:49,329; [868ac0de-3f34-4ba7-b84e-3dd47ea42c4c]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:36:49,329; [868ac0de-3f34-4ba7-b84e-3dd47ea42c4c]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:36:49,330; 172.28.0.1 - - [05/Aug/2021 11:36:49] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:37:23,159; 172.28.0.1 - - [05/Aug/2021 11:37:23] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 11:37:23,166; 172.28.0.1 - - [05/Aug/2021 11:37:23] "OPTIONS /api/autosuggest?query=se HTTP/1.1" 200 -
@@ -8249,11 +8249,11 @@ TypeError: 'NoneType' object is not iterable
 2021-08-05 11:37:32,134; 172.28.0.1 - - [05/Aug/2021 11:37:32] "GET /api/autosuggest?query=se HTTP/1.1" 200 -
 2021-08-05 11:41:13,087; 172.28.0.1 - - [05/Aug/2021 11:41:13] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:41:13,186; [7c5168d0-9b9f-400c-b814-97916bebe99e] --------------------------------------------
-2021-08-05 11:41:13,995; [7c5168d0-9b9f-400c-b814-97916bebe99e]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:41:13,995; [7c5168d0-9b9f-400c-b814-97916bebe99e]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:41:13,997; 172.28.0.1 - - [05/Aug/2021 11:41:13] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:41:26,713; 172.28.0.1 - - [05/Aug/2021 11:41:26] "OPTIONS /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-05 11:41:26,849; [17082a2d-5442-4007-9f01-cb0a84b496ac] --------------------------------------------
-2021-08-05 11:41:27,016; [17082a2d-5442-4007-9f01-cb0a84b496ac]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-05 11:41:27,016; [17082a2d-5442-4007-9f01-cb0a84b496ac]; request:nvr-nachrichten zu zalando se; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-05 11:41:27,017; 172.28.0.1 - - [05/Aug/2021 11:41:27] "GET /api/query?query=nvr-nachrichten%20zu%20zalando%20se HTTP/1.1" 200 -
 2021-08-10 12:25:45,393;  * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
@@ -8299,11 +8299,11 @@ TypeError: 'NoneType' object is not iterable
 2021-08-10 12:31:12,874; 172.28.0.1 - - [10/Aug/2021 12:31:12] "OPTIONS /api/query?query=Nvr-Nachrichten%20zu%20Zalando HTTP/1.1" 200 -
 2021-08-10 12:31:12,968; [70c40201-b7e4-4892-bd7f-582cf40ec9cc] --------------------------------------------
 2021-08-10 12:31:13,040; 172.28.0.1 - - [10/Aug/2021 12:31:13] "GET /api/autosuggest?query=Nvr HTTP/1.1" 200 -
-2021-08-10 12:31:13,149; [70c40201-b7e4-4892-bd7f-582cf40ec9cc]; request:Nvr-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 12:31:13,149; [70c40201-b7e4-4892-bd7f-582cf40ec9cc]; request:Nvr-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 12:31:13,155; 172.28.0.1 - - [10/Aug/2021 12:31:13] "GET /api/query?query=Nvr-Nachrichten%20zu%20Zalando HTTP/1.1" 200 -
 2021-08-10 12:31:13,278; 172.28.0.1 - - [10/Aug/2021 12:31:13] "GET /api/autosuggest?query=Nvr HTTP/1.1" 200 -
 2021-08-10 12:31:13,304; [450695dd-dd34-4001-8dbb-754c82b7fbc6] --------------------------------------------
-2021-08-10 12:31:13,364; [450695dd-dd34-4001-8dbb-754c82b7fbc6]; request:Nvr-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 12:31:13,364; [450695dd-dd34-4001-8dbb-754c82b7fbc6]; request:Nvr-Nachrichten zu Zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 12:31:13,367; 172.28.0.1 - - [10/Aug/2021 12:31:13] "GET /api/query?query=Nvr-Nachrichten%20zu%20Zalando HTTP/1.1" 200 -
 2021-08-10 12:31:13,678; 172.28.0.1 - - [10/Aug/2021 12:31:13] "OPTIONS /api/autosuggest?query=Zalando HTTP/1.1" 200 -
 2021-08-10 12:31:13,679; 172.28.0.1 - - [10/Aug/2021 12:31:13] "OPTIONS /api/autosuggest?query=Zalando HTTP/1.1" 200 -
@@ -9013,7 +9013,7 @@ RuntimeError: dbPedia Request Error
 2021-08-10 14:54:00,740; 172.28.0.1 - - [10/Aug/2021 14:54:00] "OPTIONS /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 14:54:01,018; 172.28.0.1 - - [10/Aug/2021 14:54:01] "OPTIONS /api/autosuggest?query=zalando HTTP/1.1" 200 -
 2021-08-10 14:54:01,048; [295a24d0-b67e-462a-8340-7fccaf9ecfbb] --------------------------------------------
-2021-08-10 14:54:01,189; [295a24d0-b67e-462a-8340-7fccaf9ecfbb]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 14:54:01,189; [295a24d0-b67e-462a-8340-7fccaf9ecfbb]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 14:54:01,190; 172.28.0.1 - - [10/Aug/2021 14:54:01] "GET /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 14:54:01,339; 172.28.0.1 - - [10/Aug/2021 14:54:01] "GET /api/autosuggest?query=zalando HTTP/1.1" 200 -
 2021-08-10 15:02:36,136; Failed to add operation for GET /api/query
@@ -9022,7 +9022,7 @@ RuntimeError: dbPedia Request Error
 2021-08-10 15:05:51,340;  * Running on http://172.28.0.4:8070/ (Press CTRL+C to quit)
 2021-08-10 15:07:11,773; 172.28.0.1 - - [10/Aug/2021 15:07:11] "OPTIONS /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:07:11,935; [17311857-8405-46ec-afe2-bf891f1d5bc8] --------------------------------------------
-2021-08-10 15:07:12,318; [17311857-8405-46ec-afe2-bf891f1d5bc8]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 15:07:12,318; [17311857-8405-46ec-afe2-bf891f1d5bc8]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 15:07:12,326; 172.28.0.1 - - [10/Aug/2021 15:07:12] "GET /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:07:12,560; 172.28.0.1 - - [10/Aug/2021 15:07:12] "OPTIONS /api/autosuggest?query=zalando HTTP/1.1" 200 -
 2021-08-10 15:07:12,798; 172.28.0.1 - - [10/Aug/2021 15:07:12] "GET /api/autosuggest?query=zalando HTTP/1.1" 200 -
@@ -9032,22 +9032,22 @@ RuntimeError: dbPedia Request Error
 2021-08-10 15:22:15,132; 172.28.0.1 - - [10/Aug/2021 15:22:15] "OPTIONS /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:22:15,248; [f48d8bd6-1ee5-44e1-b8a5-a4854d875cfb] --------------------------------------------
 2021-08-10 15:22:15,267; 172.28.0.1 - - [10/Aug/2021 15:22:15] "OPTIONS /api/autosuggest?query=zalando HTTP/1.1" 200 -
-2021-08-10 15:22:15,472; [f48d8bd6-1ee5-44e1-b8a5-a4854d875cfb]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 15:22:15,472; [f48d8bd6-1ee5-44e1-b8a5-a4854d875cfb]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 15:22:15,475; 172.28.0.1 - - [10/Aug/2021 15:22:15] "GET /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:22:15,562; 172.28.0.1 - - [10/Aug/2021 15:22:15] "GET /api/autosuggest?query=zalando HTTP/1.1" 200 -
 2021-08-10 15:29:48,362; 172.28.0.1 - - [10/Aug/2021 15:29:48] "OPTIONS /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:29:48,463; [a788928b-b63e-4b13-b781-ff60b7035770] --------------------------------------------
-2021-08-10 15:29:48,652; [a788928b-b63e-4b13-b781-ff60b7035770]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 15:29:48,652; [a788928b-b63e-4b13-b781-ff60b7035770]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 15:29:48,655; 172.28.0.1 - - [10/Aug/2021 15:29:48] "GET /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:29:56,351; 172.28.0.1 - - [10/Aug/2021 15:29:56] "OPTIONS /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:29:56,628; [87b7b5e2-13d8-4848-a4df-1626290e4488] --------------------------------------------
-2021-08-10 15:29:56,843; [87b7b5e2-13d8-4848-a4df-1626290e4488]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 15:29:56,843; [87b7b5e2-13d8-4848-a4df-1626290e4488]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 15:29:56,847; 172.28.0.1 - - [10/Aug/2021 15:29:56] "GET /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:29:57,111; 172.28.0.1 - - [10/Aug/2021 15:29:57] "OPTIONS /api/autosuggest?query=zalando HTTP/1.1" 200 -
 2021-08-10 15:29:57,349; 172.28.0.1 - - [10/Aug/2021 15:29:57] "GET /api/autosuggest?query=zalando HTTP/1.1" 200 -
 2021-08-10 15:30:05,402; 172.28.0.1 - - [10/Aug/2021 15:30:05] "OPTIONS /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:30:05,495; [210a4fd6-8a27-4334-be4a-baa89c65fc1f] --------------------------------------------
-2021-08-10 15:30:05,659; [210a4fd6-8a27-4334-be4a-baa89c65fc1f]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://fokus.fraunhofer.de/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
+2021-08-10 15:30:05,659; [210a4fd6-8a27-4334-be4a-baa89c65fc1f]; request:nvr-nachrichten zalando; spellcheck:; response:api4kb(csv): NVR-table [{'date': {'type': 'literal', 'value': '2021-06-03'}, 'iri': {'type': 'uri', 'value': 'http://localhost:8890/ontologies/2020/9/cisqa20/844ff217-f954-486a-ab88-83fb17a7f8f5'}, 'effDate': {'xml:lang': 'de', 'type': 'literal', 'value': '31.05.2021'}, 'votingRights': {'xml:lang': 'de', 'type': 'literal', 'value': '260956816'}, 'author': {'type': 'literal', 'value': 'EQS Group AG, Munich, Germany'}, 'language': {'type': 'literal', 'value': 'Deutsch'}, 'lastModified': {'type': 'literal', 'value': 'Do, 3 Jun 2021 12:59:37 +0200'}, 'title': {'xml:lang': 'de', 'type': 'literal', 'value': 'Zalando SE: Veröffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG mit dem Ziel der europaweiten Verbreitung - dgap.de'}, 'capitalMeasure': {'xml:lang': 'de', 'type': 'literal', 'value': '<strong>Ausgabe von Bezugsaktien</strong> (§ 41 Abs. 2 WpHG)'}}]; entity:ORG; cookie_clientID:161bc7a2-6b55-4c16-9858-7fe53b2c8332
 2021-08-10 15:30:05,662; 172.28.0.1 - - [10/Aug/2021 15:30:05] "GET /api/query?query=nvr-nachrichten%20zalando HTTP/1.1" 200 -
 2021-08-10 15:30:06,209; 172.28.0.1 - - [10/Aug/2021 15:30:06] "OPTIONS /api/autosuggest?query=zalando HTTP/1.1" 200 -
 2021-08-10 15:30:06,441; 172.28.0.1 - - [10/Aug/2021 15:30:06] "GET /api/autosuggest?query=zalando HTTP/1.1" 200 -
@@ -10850,20 +10850,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -11028,20 +11028,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -11198,20 +11198,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -11348,20 +11348,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -11538,20 +11538,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -11691,20 +11691,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -11844,20 +11844,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -11997,20 +11997,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -12150,20 +12150,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -12303,20 +12303,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -12740,20 +12740,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -12890,20 +12890,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -13040,20 +13040,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -13190,20 +13190,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -13340,20 +13340,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -13490,20 +13490,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -13640,20 +13640,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -13790,20 +13790,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -13940,20 +13940,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -14093,20 +14093,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -14245,20 +14245,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -14408,20 +14408,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">
@@ -14567,20 +14567,20 @@ a, a:visited, a:active {
 
     }
 </style>
-        <title>Fraunhofer FOKUS</title>
+        <title>INAGQA</title>
     </head>
 
     <body>
         <h1><table><tr><td>404.</td><td rowspan="2">&nbsp;</td><td>Seite nicht gefunden.</td></tr><tr><td></td><td>Page not found.</td></tr><tr></tr><td>&nbsp;</td></table></h1>
         <div id="container">
             <div id="left">Bitte &uuml;berpr&uuml;fen Sie die Eingabe Ihrer URL.</div>
-            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren Fraunhofer FOKUS Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+            <div id="right">Eventuell sind Sie nicht berechtigt die Seite zu besuchen oder der von Ihnen gew&uuml;nschte Service existiert nicht. <br><br>Bitte wenden Sie sich an Ihren INAGQA Partner um das Problem zu beheben oder besuchen sie unsere Web-Seite <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
 	&nbsp;
         <div id="container">
             <div id="left">Please check the URL you used.</div>
             <div id="right">If the URL you entered it correct, please consider that maybe you are not allowed to visit the page or the service might be discontinued.<br><br>
-   	    Please contact your partner at Fraunhofer FOKUS to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">Fraunhofer FOKUS</a></div>
+   	    Please contact your partner at INAGQA to find out the reason for you seeing this message or visit our web page at <a href="https://www.fokus.fraunhofer.de">INAGQA</a></div>
         </div>
         <br>
         <div id="impress">

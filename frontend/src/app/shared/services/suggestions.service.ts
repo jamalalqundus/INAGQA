@@ -1,6 +1,5 @@
 /**
  * Name:     suggestions.service.ts
- * Author:   ssa
  * 
  * Description: The suggestions service handles suggestions from 
  *  wikidata using the server sent events principle. 

@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     virtuoso.py                                                      *#
-#* Author:   ssa                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Generate SPARQL queries and wrap API4KB requests.                         *#

@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     main.py                                                          *#
-#* Author:   lvu                                                              *#
 #*                                                                            *#
 #* Desc clientIDtion:                                                               *#
 #*  Accepts the requests of semantic-api. Either a question (query) is asked  *#

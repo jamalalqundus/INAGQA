@@ -199,7 +199,7 @@ mandatory fields:
 ```
 [
     {
-        "query":"Informationen über Fraunhofer FOKUS",
+        "query":"Informationen über INAGQA",
         "properties":[
             {
                 "property": "Unternehmensname", 

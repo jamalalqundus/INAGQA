@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     performQuery.py                                                  *#
-#* Author:   lvu                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Transforms the query results of nlp-backend into the proper frontend      *#

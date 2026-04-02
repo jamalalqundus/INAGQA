@@ -1,6 +1,5 @@
 /**
  * Name:     home.component.ts
- * Author:   ssa
  * 
  * Description: Start page with animated questions to show the user 
  *  what data is available in the knowledge base. 

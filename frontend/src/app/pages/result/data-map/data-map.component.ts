@@ -1,6 +1,5 @@
 /**
  * Name:     data-map.component.ts
- * Author:   ssa
  * 
  * Description: Loading an openstreetmaps map based on latitude and longitude. 
  *  A list of clickable and focusable elements is rendered.

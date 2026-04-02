@@ -1,6 +1,5 @@
 /**
  * Name:     config.service.ts
- * Author:   ssa
  * 
  * Description: Service that makes the environment variables from assets/config.json 
  *  accessible to other services in the application.

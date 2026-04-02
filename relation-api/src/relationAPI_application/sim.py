@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     sim.py                                                           *#
-#* Author:   lvu                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Calculate the similarity between input and target phrases.                *#

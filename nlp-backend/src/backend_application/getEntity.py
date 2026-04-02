@@ -1,6 +1,5 @@
 #******************************************************************************#
 #* Name:     getEntity.py                                                     *#
-#* Author:   lvu                                                              *#
 #*                                                                            *#
 #* Description:                                                               *#
 #*  Queries DBpedia for autosuggestion entities.                              *#
