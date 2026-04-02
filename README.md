@@ -15,7 +15,7 @@ Outperforms BERT-KGQA (0.83 F1) and template-based systems (0.79 F1). Designed f
 # Get started
 
 <details>
-  <summary markdown="span">if working Remote from qurator server with vs-code IDE (click me)</summary>
+  <summary markdown="span">if working locally with vs-code IDE (click me)</summary>
 
 1. Install [vs-code](https://code.visualstudio.com/)
 1. Click on Extension symbol on the left side
